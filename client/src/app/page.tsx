@@ -1,6 +1,8 @@
 'use client'
 import { IconHome, IconMapPin, IconSearch, IconUserCircle, IconUsersGroup } from "@tabler/icons-react";
-import { useState } from "react";
+import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
+import { useUserStore } from '@/utils/store'
 
 const navItems = [
   { label: "Community",  icon: <IconUsersGroup size={24} />},
@@ -12,6 +14,24 @@ const navItems = [
 
 export default function MobileUI() {
   const [active, setActive] = useState(2);
+  const router = useRouter();
+  const profile = useUserStore((state) => state.profile);
+
+  const [hydrated, setHydrated] = useState(false);
+
+  useEffect(() => {
+    setHydrated(true);
+  }, []);
+
+  useEffect(() => {
+    if (hydrated && profile === null) {
+      router.replace("/login");
+    }
+  }, [hydrated, profile, router]);
+
+  if (!hydrated) return <div>Loading...</div>;
+  if (profile === null) return null;
+
 
   const pageContent = () => {
     switch (active) {
@@ -31,7 +51,7 @@ export default function MobileUI() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-white">
+    <div className="min-h-screen flex flex-col bgwhite">
         <main className="w-full h-0 flex-1 overflow-y-auto">
             {pageContent()}
         </main>
