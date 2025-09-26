@@ -1,50 +1,91 @@
 'use client'
-import { IconHome, IconSearch, IconUserCircle } from "@tabler/icons-react";
+import { IconHome, IconMapPin, IconSearch, IconUserCircle, IconUsersGroup } from "@tabler/icons-react";
 import { useState } from "react";
 
 const navItems = [
-  { label: "Home", icon: <IconHome /> },
-  { label: "Search", icon: <IconSearch />},
-  { label: "Profile", icon: <IconUserCircle /> },
+  { label: "Community",  icon: <IconUsersGroup size={24} />},
+  { label: "Map",        icon: <IconMapPin size={24} />},
+  { label: "Home",       icon: <IconHome size={24} /> },
+  { label: "Search",     icon: <IconSearch size={24} />},
+  { label: "Profile",    icon: <IconUserCircle size={24} /> },
 ];
 
 export default function MobileUI() {
-  const [active, setActive] = useState(0);
+  const [active, setActive] = useState(2);
 
-  const renderContent = () => {
+  const pageContent = () => {
     switch (active) {
       case 0:
-        return <div className="p-4">Welcome to Home Page</div>;
+        return <Commmunity />;
       case 1:
-        return <div className="p-4">Search Page Content</div>;
+        return <Map />;
       case 2:
-        return <div className="p-4">Profile Page Content</div>;
+        return <Home />;
+      case 3:
+        return <Search />;
+      case 4:
+        return <Profile />;
       default:
         return null;
     }
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-gray-100">
-      <main className="flex-1">{renderContent()}</main>
-
-      <nav className="fixed bottom-0 left-0 w-full bg-white border-t shadow-md">
-        <div className="flex justify-around p-2">
-          {navItems.map((item, index) => (
-            <button
-              key={index}
-              onClick={() => setActive(index)}
-              className={`flex flex-col items-center text-sm ${
-                active === index ? "text-blue-500" : "text-gray-500"
-              }`}
-            >
-              <span className="text-2xl">{item.icon}</span>
-              {item.label}
-            </button>
-          ))}
-        </div>
-      </nav>
+    <div className="min-h-screen flex flex-col bg-white">
+        <main className="w-full h-0 flex-1 overflow-y-auto">
+            {pageContent()}
+        </main>
+        <nav className="fixed bottom-0 h-20 w-full shadow shadow-black rounded-t-2xl flex items-center justify-between px-5 bg-white ">
+            {
+                navItems.map((v, ind) => 
+                    <div onClick={() => setActive(ind)} className={`${active === ind ? "text-black" : "text-gray-500" } rounded-full w-full py-5  flex flex-col items-center justify-center`} key={ind}>
+                      {v.icon}
+                      <h1 className="text-xs">{v.label}</h1>
+                    </div>)
+            }
+        </nav>
     </div>
   );
 }
 
+const Home = () => {
+    return <>
+        <h1 className="text-black text-8xl">Heom</h1>
+        <h1 className="text-black text-8xl">Heom</h1>
+        <h1 className="text-black text-8xl">Heom</h1>
+        <h1 className="text-black text-8xl">Heom</h1>
+        <h1 className="text-black text-8xl">Heom</h1>
+        <h1 className="text-black text-8xl">Heom</h1>
+        <h1 className="text-black text-8xl">Heom</h1>
+        <h1 className="text-black text-8xl">Heom</h1>
+        <h1 className="text-black text-8xl">Heom</h1>
+        <h1 className="text-black text-8xl">Heom</h1>
+        <h1 className="text-black text-8xl">Heom</h1>
+        <h1 className="text-black text-8xl">Heom</h1>
+        <h1 className="text-black text-8xl">Heom</h1>
+        <h1 className="text-black text-8xl">Heom</h1>
+        <h1 className="text-black text-8xl">Heom</h1>
+        <h1 className="text-black text-8xl">Heom</h1>
+        <h1 className="text-black text-8xl">Heom</h1>
+        <h1 className="text-black text-8xl">Heom</h1>
+        <h1 className="text-black text-8xl">Heom</h1>
+        <h1 className="text-black text-8xl">Heom</h1>
+        <h1 className="text-black text-8xl">Heom</h1>
+    </>
+};
+
+const Commmunity = () => {
+    return <><h1 className="text-black">community</h1></>
+};
+
+const Map = () => {
+    return <><h1 className="text-black">map</h1></>
+};
+
+const Profile = () => {
+    return <><h1 className="text-black">profile</h1></>
+};
+
+const Search = () => {
+    return <><h1 className="text-black">search</h1></>
+};
