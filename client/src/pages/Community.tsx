@@ -2,8 +2,7 @@
 
 import Calendar from 'react-calendar';
 import { useState } from "react";
-import 'react-calendar/dist/Calendar.css';
-import { IconBackground, IconChevronLeft, IconSearch } from '@tabler/icons-react';
+import { IconChevronLeft  } from '@tabler/icons-react';
 
 type TSubPage = "home" | "calender" | "post";
 
