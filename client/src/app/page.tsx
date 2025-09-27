@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { useUserStore } from '@/utils/store'
 
 import Home from "@/pages/Home";
+import Commmunity from "@/pages/Community";
 
 const navItems = [
   { label: "Community",  icon: <IconUsersGroup size={24} />},
@@ -71,10 +72,6 @@ export default function MobileUI() {
   );
 }
 
-
-const Commmunity = () => {
-    return <><h1 className="text-black">community</h1></>
-};
 
 const Map = () => {
     return <><h1 className="text-black">map</h1></>
