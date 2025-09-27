@@ -29,11 +29,12 @@ export default function Commmunity() {
             {events[value].map((event, index) => (
                 <li className="list-row" key={index}>
                   <div>
-                    <div>{event.name}</div>
-                    <div className="text-xs uppercase font-semibold opacity-60">{event.where}</div>
+                    <h1 className='text-lg font-bold '>{event.name}</h1>
+                    <h2 className="text-xs font-light uppercase  opacity-60">{event.where}</h2>
+                    <p className='mt-2'>{event.description}</p>
                   </div>
                   <p className="list-col-wrap text-xs">
-                    {event.time}
+                    <span className='font-light'>Time:</span> {event.time}
                   </p>
                 </li>
             ))}
@@ -63,6 +64,35 @@ const events: MonasteryEventsMap =
       "time": "All day",
       "description": "Celebration of the birth anniversary of Guru Padmasambhava.",
       "where": "Tsuk La Khang Monastery"
+    },
+    {
+      "name": "Community Prayer Gathering",
+      "time": "Evening",
+      "description": "Local devotees join monks for evening prayers.",
+      "where": "Enchey Monastery"
+    }
+  ],
+  "2025-10-02": [
+    {
+      "name": "Morning Meditation Session",
+      "time": "Dawn",
+      "description": "Daily morning prayers and meditation for monks and devotees.",
+      "where": "Pemayangtse Monastery"
+    }
+  ],
+  "2025-10-03": [],
+  "2025-10-04": [
+    {
+      "name": "Tara Puja",
+      "time": "Evening",
+      "description": "Special prayers to Green Tara for protection and compassion.",
+      "where": "Tashiding Monastery"
+    },
+    {
+      "name": "Dharma Study Circle",
+      "time": "Afternoon",
+      "description": "Weekly study session on Buddhist texts and philosophy.",
+      "where": "Dubdi Monastery"
     }
   ],
   "2025-10-05": [
@@ -73,12 +103,33 @@ const events: MonasteryEventsMap =
       "where": "Enchey Monastery"
     },
     {
-      "name": "Tara Puja",
+      "name": "Protector Deity Ritual",
+      "time": "Morning",
+      "description": "Monthly invocation of monastery guardian deities.",
+      "where": "Ralang Monastery"
+    },
+    {
+      "name": "Scripture Reading",
+      "time": "Afternoon",
+      "description": "Recitation of sacred Buddhist texts.",
+      "where": "Sang Choeling Monastery"
+    },
+    {
+      "name": "Butter Lamp Offering",
       "time": "Evening",
-      "description": "Special prayers to Green Tara for protection and compassion.",
-      "where": "Pemayangtse Monastery"
+      "description": "Weekly offering of butter lamps for merit accumulation.",
+      "where": "Phensong Monastery"
     }
   ],
+  "2025-10-06": [
+    {
+      "name": "Avalokiteshvara Puja",
+      "time": "All day",
+      "description": "Special ceremony dedicated to the Bodhisattva of Compassion.",
+      "where": "Do-drul Chorten Monastery"
+    }
+  ],
+  "2025-10-07": [],
   "2025-10-08": [
     {
       "name": "Lhabab Duechen Preparation",
@@ -91,19 +142,91 @@ const events: MonasteryEventsMap =
       "time": "Afternoon",
       "description": "Weekly teaching session on Buddhist philosophy and practice.",
       "where": "Dubdi Monastery"
+    },
+    {
+      "name": "Young Monks Training",
+      "time": "Morning",
+      "description": "Educational session for novice monks on monastery traditions.",
+      "where": "Rumtek Monastery"
+    }
+  ],
+  "2025-10-09": [
+    {
+      "name": "Mahakala Puja",
+      "time": "Morning",
+      "description": "Powerful protective ritual dedicated to Mahakala, the protector deity.",
+      "where": "Enchey Monastery"
+    },
+    {
+      "name": "Festival Decoration Preparation",
+      "time": "Afternoon",
+      "description": "Community volunteers prepare decorations for upcoming festival.",
+      "where": "Tsuk La Khang Monastery"
+    }
+  ],
+  "2025-10-10": [
+    {
+      "name": "Chaam Dance Practice",
+      "time": "All day",
+      "description": "Sacred mask dance rehearsal by monastery monks.",
+      "where": "Rumtek Monastery"
+    },
+    {
+      "name": "Prayer Wheel Consecration",
+      "time": "Morning",
+      "description": "Blessing ceremony for newly installed prayer wheels.",
+      "where": "Sang Choeling Monastery"
+    },
+    {
+      "name": "Community Meditation Retreat",
+      "time": "All day",
+      "description": "Day-long meditation retreat for local practitioners.",
+      "where": "Pemayangtse Monastery"
+    },
+    {
+      "name": "Monastery Library Opening",
+      "time": "Afternoon",
+      "description": "Special access to ancient manuscript collection for scholars.",
+      "where": "Phensong Monastery"
+    },
+    {
+      "name": "Evening Prayer Session",
+      "time": "Evening",
+      "description": "Extended evening prayers with community participation.",
+      "where": "Ralang Monastery"
+    }
+  ],
+  "2025-10-11": [
+    {
+      "name": "Pre-Festival Purification",
+      "time": "All day",
+      "description": "Cleansing rituals and monastery sanctification before major festival.",
+      "where": "Do-drul Chorten Monastery"
+    },
+    {
+      "name": "Traditional Food Preparation",
+      "time": "Morning",
+      "description": "Volunteers prepare traditional Sikkimese dishes for festival.",
+      "where": "Tashiding Monastery"
+    },
+    {
+      "name": "Instrument Tuning Ceremony",
+      "time": "Afternoon",
+      "description": "Sacred musical instruments blessed and tuned for festival.",
+      "where": "Dubdi Monastery"
     }
   ],
   "2025-10-12": [
     {
       "name": "Lhabab Duechen",
       "time": "All day",
-      "description": "Major festival commemorating Lord Buddha's descent from the heavenly realms. Elaborate rituals and prayers.",
+      "description": "Major festival commemorating Lord Buddha's descent from the heavenly realms.",
       "where": "Rumtek Monastery"
     },
     {
       "name": "Lhabab Duechen Celebration",
-      "time": "All day", 
-      "description": "Community gathering with special prayers, butter lamp offerings, and traditional ceremonies.",
+      "time": "All day",
+      "description": "Community gathering with special prayers, butter lamp offerings, and ceremonies.",
       "where": "Enchey Monastery"
     },
     {
@@ -111,62 +234,188 @@ const events: MonasteryEventsMap =
       "time": "All day",
       "description": "Sacred observance with chanting, ritual dances, and community feast.",
       "where": "Pemayangtse Monastery"
+    },
+    {
+      "name": "Lhabab Duechen Prayers",
+      "time": "All day",
+      "description": "Special prayers and offerings marking this auspicious day.",
+      "where": "Tsuk La Khang Monastery"
+    },
+    {
+      "name": "Festival Procession",
+      "time": "Afternoon",
+      "description": "Traditional procession with sacred relics and community participation.",
+      "where": "Tashiding Monastery"
     }
   ],
+  "2025-10-13": [
+    {
+      "name": "Post-Festival Merit Dedication",
+      "time": "Morning",
+      "description": "Ceremony to dedicate merits from festival celebrations.",
+      "where": "Sang Choeling Monastery"
+    }
+  ],
+  "2025-10-14": [],
   "2025-10-15": [
     {
       "name": "New Moon Puja",
       "time": "Evening",
       "description": "Special prayers and meditation ceremonies during the new moon.",
+      "where": "Ralang Monastery"
+    },
+    {
+      "name": "Healing Ritual",
+      "time": "Morning",
+      "description": "Traditional healing ceremony for community members.",
+      "where": "Phensong Monastery"
+    }
+  ],
+  "2025-10-16": [
+    {
+      "name": "Weekly Dharma Discussion",
+      "time": "Afternoon",
+      "description": "Interactive session on Buddhist teachings and modern life.",
+      "where": "Do-drul Chorten Monastery"
+    },
+    {
+      "name": "Monastery Garden Blessing",
+      "time": "Morning",
+      "description": "Seasonal blessing of monastery herb and vegetable gardens.",
+      "where": "Dubdi Monastery"
+    },
+    {
+      "name": "Children's Buddhist Education",
+      "time": "Afternoon",
+      "description": "Weekly class for local children on Buddhist values and stories.",
+      "where": "Rumtek Monastery"
+    }
+  ],
+  "2025-10-17": [],
+  "2025-10-18": [
+    {
+      "name": "Guru Padmasambhava Day",
+      "time": "All day",
+      "description": "Monthly celebration honoring Guru Rinpoche with prayers and rituals.",
+      "where": "Tsuk La Khang Monastery"
+    },
+    {
+      "name": "Sacred Text Copying",
+      "time": "Morning",
+      "description": "Traditional practice of hand-copying Buddhist scriptures.",
+      "where": "Enchey Monastery"
+    }
+  ],
+  "2025-10-19": [
+    {
+      "name": "Community Health Camp",
+      "time": "All day",
+      "description": "Free medical checkup camp organized by monastery for locals.",
+      "where": "Pemayangtse Monastery"
+    },
+    {
+      "name": "Meditation Workshop",
+      "time": "Afternoon",
+      "description": "Beginner-friendly meditation techniques workshop.",
       "where": "Tashiding Monastery"
     },
     {
-      "name": "Protector Deity Puja",
-      "time": "Morning",
-      "description": "Invocation and prayers to monastery guardian deities.",
+      "name": "Traditional Music Practice",
+      "time": "Evening",
+      "description": "Young monks practice traditional Buddhist chanting and music.",
+      "where": "Sang Choeling Monastery"
+    },
+    {
+      "name": "Elder Monks Storytelling",
+      "time": "Evening",
+      "description": "Senior monks share Buddhist folklore and monastery history.",
       "where": "Ralang Monastery"
     }
   ],
-  "2025-10-18": [
+  "2025-10-20": [
     {
-      "name": "Mahakala Puja",
-      "time": "Morning",
-      "description": "Powerful protective ritual dedicated to Mahakala, the protector deity.",
-      "where": "Rumtek Monastery"
-    },
-    {
-      "name": "Community Prayer Gathering",
-      "time": "Evening",
-      "description": "Local devotees join monks for evening prayers and teachings.",
-      "where": "Sang Choeling Monastery"
+      "name": "Monastery Anniversary Preparation",
+      "time": "All day",
+      "description": "Preparation activities for upcoming monastery founding anniversary.",
+      "where": "Phensong Monastery"
     }
   ],
+  "2025-10-21": [],
   "2025-10-22": [
-    {
-      "name": "Avalokiteshvara Puja",
-      "time": "All day",
-      "description": "Special ceremony dedicated to the Bodhisattva of Compassion.",
-      "where": "Enchey Monastery"
-    },
     {
       "name": "Monastery Anniversary Celebration",
       "time": "All day",
       "description": "Annual celebration commemorating the founding of the monastery.",
       "where": "Phensong Monastery"
+    },
+    {
+      "name": "Special Offering Ceremony",
+      "time": "Morning",
+      "description": "Devotees make special offerings for monastery anniversary.",
+      "where": "Do-drul Chorten Monastery"
+    },
+    {
+      "name": "Cultural Program",
+      "time": "Afternoon",
+      "description": "Traditional Sikkimese cultural performances and displays.",
+      "where": "Dubdi Monastery"
     }
   ],
+  "2025-10-23": [
+    {
+      "name": "Weekly Community Service",
+      "time": "Morning",
+      "description": "Monks and volunteers engage in local community service activities.",
+      "where": "Rumtek Monastery"
+    }
+  ],
+  "2025-10-24": [],
   "2025-10-25": [
     {
       "name": "Dakini Day Observance",
       "time": "Morning",
       "description": "Monthly observance dedicated to female Buddhist deities and wisdom holders.",
-      "where": "Pemayangtse Monastery"
+      "where": "Enchey Monastery"
     },
     {
       "name": "Butter Lamp Festival",
       "time": "Evening",
       "description": "Lighting of thousands of butter lamps for merit and blessings.",
       "where": "Tashiding Monastery"
+    },
+    {
+      "name": "Sacred Art Workshop",
+      "time": "Afternoon",
+      "description": "Teaching traditional Thangka painting techniques to interested students.",
+      "where": "Tsuk La Khang Monastery"
+    },
+    {
+      "name": "Compassion Meditation",
+      "time": "Evening",
+      "description": "Guided loving-kindness and compassion meditation session.",
+      "where": "Pemayangtse Monastery"
+    }
+  ],
+  "2025-10-26": [
+    {
+      "name": "Monastery Cleanliness Drive",
+      "time": "Morning",
+      "description": "Community volunteer day for monastery and surrounding area cleaning.",
+      "where": "Sang Choeling Monastery"
+    },
+    {
+      "name": "Scripture Study Group",
+      "time": "Afternoon",
+      "description": "Weekly study of Buddhist philosophical texts.",
+      "where": "Ralang Monastery"
+    }
+  ],
+  "2025-10-27": [
+    {
+      "name": "Interfaith Dialogue Session",
+      "time": "Afternoon",
+      "description": "Monthly interfaith discussion promoting religious harmony.",
+      "where": "Do-drul Chorten Monastery"
     }
   ],
   "2025-10-28": [
@@ -177,9 +426,30 @@ const events: MonasteryEventsMap =
       "where": "Rumtek Monastery"
     },
     {
-      "name": "Guru Padmasambhava Day",
-      "time": "All day",
-      "description": "Monthly celebration honoring Guru Rinpoche with prayers and rituals.",
+      "name": "Environmental Awareness Program",
+      "time": "Morning",
+      "description": "Educational program on environmental protection and Buddhist teachings.",
+      "where": "Dubdi Monastery"
+    },
+    {
+      "name": "Traditional Craft Workshop",
+      "time": "Afternoon",
+      "description": "Teaching traditional Sikkimese handicrafts to preserve cultural heritage.",
+      "where": "Phensong Monastery"
+    }
+  ],
+  "2025-10-29": [],
+  "2025-10-30": [
+    {
+      "name": "Monthly Blessing Ceremony",
+      "time": "Morning",
+      "description": "General blessing ceremony for devotees and their families.",
+      "where": "Enchey Monastery"
+    },
+    {
+      "name": "Youth Buddhist Forum",
+      "time": "Afternoon",
+      "description": "Discussion forum for young people on Buddhism and contemporary issues.",
       "where": "Tsuk La Khang Monastery"
     }
   ],
@@ -188,13 +458,31 @@ const events: MonasteryEventsMap =
       "name": "Full Moon Puja",
       "time": "Evening",
       "description": "Monthly full moon ceremony with special prayers and offerings.",
-      "where": "Enchey Monastery"
+      "where": "Tashiding Monastery"
     },
     {
       "name": "Month-End Merit Dedication",
       "time": "Morning",
       "description": "Ceremony to dedicate merits accumulated throughout the month.",
+      "where": "Pemayangtse Monastery"
+    },
+    {
+      "name": "Halloween Awareness Discussion",
+      "time": "Afternoon",
+      "description": "Educational discussion on Buddhist perspective of Western festivals.",
       "where": "Do-drul Chorten Monastery"
+    },
+    {
+      "name": "Seasonal Transition Prayers",
+      "time": "Evening",
+      "description": "Special prayers marking the transition from autumn to winter season.",
+      "where": "Sang Choeling Monastery"
+    },
+    {
+      "name": "Monthly Community Feast",
+      "time": "Afternoon",
+      "description": "Community gathering with shared meal and fellowship.",
+      "where": "Ralang Monastery"
     }
   ]
 }
