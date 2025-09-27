@@ -9,12 +9,17 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@react-three/drei": "^10.7.6",
+    "@react-three/fiber": "^9.3.0",
     "@tabler/icons-react": "^3.35.0",
+    "gsap": "^3.13.0",
     "next": "15.5.4",
     "react": "19.1.0",
     "react-calendar": "^6.0.0",
     "react-dom": "19.1.0",
-    "zustand": "^5.0.8"
+    "zustand": "^5.0.8",
+    "react-dom": "19.1.0",
+    "three": "^0.180.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
@@ -22,6 +27,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/three": "^0.180.0",
     "daisyui": "^5.1.23",
     "eslint": "^9",
     "eslint-config-next": "15.5.4",
