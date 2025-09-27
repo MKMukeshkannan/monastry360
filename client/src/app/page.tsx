@@ -4,6 +4,8 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { useUserStore } from '@/utils/store'
 
+import Home from "@/pages/Home";
+
 const navItems = [
   { label: "Community",  icon: <IconUsersGroup size={24} />},
   { label: "Map",        icon: <IconMapPin size={24} />},
@@ -51,8 +53,8 @@ export default function MobileUI() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bgwhite">
-        <main className="w-full h-0 flex-1 overflow-y-auto">
+    <div className="min-h-screen flex flex-col">
+        <main className="w-full h-0 flex-1 overflow-y-auto p-2 pb-20">
             {pageContent()}
         </main>
         <nav className="fixed bottom-0 h-20 w-full shadow shadow-black rounded-t-2xl flex items-center justify-between px-5 bg-white ">
@@ -61,6 +63,7 @@ export default function MobileUI() {
                     <div onClick={() => setActive(ind)} className={`${active === ind ? "text-black" : "text-gray-500" } rounded-full w-full py-5  flex flex-col items-center justify-center`} key={ind}>
                       {v.icon}
                       <h1 className="text-xs">{v.label}</h1>
+                      <div className={`${active !== ind && "hidden"} bg-black w-5 h-1 mt-2 rounded-2xl transition-all`}></div>
                     </div>)
             }
         </nav>
@@ -68,31 +71,6 @@ export default function MobileUI() {
   );
 }
 
-const Home = () => {
-    return <>
-        <h1 className="text-black text-8xl">Heom</h1>
-        <h1 className="text-black text-8xl">Heom</h1>
-        <h1 className="text-black text-8xl">Heom</h1>
-        <h1 className="text-black text-8xl">Heom</h1>
-        <h1 className="text-black text-8xl">Heom</h1>
-        <h1 className="text-black text-8xl">Heom</h1>
-        <h1 className="text-black text-8xl">Heom</h1>
-        <h1 className="text-black text-8xl">Heom</h1>
-        <h1 className="text-black text-8xl">Heom</h1>
-        <h1 className="text-black text-8xl">Heom</h1>
-        <h1 className="text-black text-8xl">Heom</h1>
-        <h1 className="text-black text-8xl">Heom</h1>
-        <h1 className="text-black text-8xl">Heom</h1>
-        <h1 className="text-black text-8xl">Heom</h1>
-        <h1 className="text-black text-8xl">Heom</h1>
-        <h1 className="text-black text-8xl">Heom</h1>
-        <h1 className="text-black text-8xl">Heom</h1>
-        <h1 className="text-black text-8xl">Heom</h1>
-        <h1 className="text-black text-8xl">Heom</h1>
-        <h1 className="text-black text-8xl">Heom</h1>
-        <h1 className="text-black text-8xl">Heom</h1>
-    </>
-};
 
 const Commmunity = () => {
     return <><h1 className="text-black">community</h1></>
@@ -103,7 +81,9 @@ const Map = () => {
 };
 
 const Profile = () => {
-    return <><h1 className="text-black">profile</h1></>
+    return <>
+        <h1 className="text-black">profile</h1>
+    </>
 };
 
 const Search = () => {
