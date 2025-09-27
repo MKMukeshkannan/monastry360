@@ -1,21 +1,32 @@
 'use client'
 import Calendar from 'react-calendar';
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import 'react-calendar/dist/Calendar.css';
-import './calender.css'; // custom overrides (see below)
+import { IconHeart, IconHeartFilled } from '@tabler/icons-react';
 
 export default function Commmunity() {
-
   const [value, setValue] = useState<string>("");
-
-  useEffect(() => {
-      console.log(value);
-  }, [value])
-
 
   return (
     <>
-        <h1 className="text-5xl font-black mb-4">Commmunity</h1>
+        <h1 className="text-5xl font-black mb-4">Explore</h1>
+        <button className='btn btn-accent py-8 w-full  text-xl rounded-xl  '> See Cultural Events !!!</button>
+
+
+
+        <div className='flex flex-col items-center justify-center pt-4'>
+            <h1 className='text-2xl font-bold self-start'>Public Post</h1>
+            <PostCard image="https://www.esikkimtourism.in/wp-content/uploads/2019/04/topmarch.jpg" likes={128} caption="Enjoying a sunny day in Sikkim!" username="Mukesh K." place="Gangtok" />
+            <PostCard image="https://www.esikkimtourism.in/wp-content/uploads/2019/04/topmarch.jpg" likes={128} caption="Enjoying a sunny day in Sikkim!" username="Mukesh K." place="Gangtok" />
+            <PostCard image="https://www.esikkimtourism.in/wp-content/uploads/2019/04/topmarch.jpg" likes={128} caption="Enjoying a sunny day in Sikkim!" username="Mukesh K." place="Gangtok" />
+            <PostCard image="https://www.esikkimtourism.in/wp-content/uploads/2019/04/topmarch.jpg" likes={128} caption="Enjoying a sunny day in Sikkim!" username="Mukesh K." place="Gangtok" />
+            <PostCard image="https://www.esikkimtourism.in/wp-content/uploads/2019/04/topmarch.jpg" likes={128} caption="Enjoying a sunny day in Sikkim!" username="Mukesh K." place="Gangtok" />
+            <PostCard image="https://www.esikkimtourism.in/wp-content/uploads/2019/04/topmarch.jpg" likes={128} caption="Enjoying a sunny day in Sikkim!" username="Mukesh K." place="Gangtok" />
+            <PostCard image="https://www.esikkimtourism.in/wp-content/uploads/2019/04/topmarch.jpg" likes={128} caption="Enjoying a sunny day in Sikkim!" username="Mukesh K." place="Gangtok" />
+        </div>
+
+
+        {/*
         <Calendar
           onChange={(e) => setValue(e && toYYYYMMDD(e.toLocaleString()) || "") }
           value={value}
@@ -41,6 +52,7 @@ export default function Commmunity() {
           </ul>
         </div>
         }
+        */}
 
     </>
   );
@@ -486,6 +498,32 @@ const events: MonasteryEventsMap =
     }
   ]
 }
+
+
+interface PostCardProps {
+  image: string;
+  likes: number;
+  caption: string;
+  username: string;
+  place: string;
+}
+
+export const PostCard: React.FC<PostCardProps> = ({ image, likes, caption, username, place }) => {
+  return (
+    <div className="card w-80 bg-base-100 shadow-lg rounded-lg overflow-hidden mb-2">
+      <figure> <img src={image} alt="Post" className="w-full h-48 object-cover" /> </figure>
+
+      <div className=" p-4">
+        <div className="flex justify-between items-center">
+          <div className="font-semibold text-sm">{username}</div>
+          <div className="text-xs text-gray-500">{place}</div>
+        </div>
+
+        <p className="text-sm text-gray-700">{caption}</p>
+      </div>
+    </div>
+  );
+};
 
 
 function toYYYYMMDD(dateStr: string) {
