@@ -3,7 +3,6 @@
 import Calendar from 'react-calendar';
 import { useState } from "react";
 import 'react-calendar/dist/Calendar.css';
-import { IconBackground, IconChevronLeft, IconSearch } from '@tabler/icons-react';
 
 type TSubPage = "home" | "calender" | "post";
 
@@ -14,9 +13,10 @@ export default function Commmunity() {
   return (
     <>
     {subpage === 'home' && 
-       (<>
+        (
+        <>
         <h1 className="text-5xl font-black mb-4">Explore</h1>
-        <button onClick={() => setSubpage('calender')} className='btn btn-accent py-8 w-full  text-xl rounded-xl  '> See Cultural Events !!!</button>
+        <button className='btn btn-accent py-8 w-full  text-xl rounded-xl  '> See Cultural Events !!!</button>
 
         <div className='flex flex-col items-center justify-center pt-4'>
             <h1 className='text-4xl font-bold py-4'>Public Post</h1>
@@ -28,25 +28,18 @@ export default function Commmunity() {
             <PostCard image="https://www.esikkimtourism.in/wp-content/uploads/2019/04/topmarch.jpg" likes={128} caption="Enjoying a sunny day in Sikkim!" username="Mukesh K." place="Gangtok" />
             <PostCard image="https://www.esikkimtourism.in/wp-content/uploads/2019/04/topmarch.jpg" likes={128} caption="Enjoying a sunny day in Sikkim!" username="Mukesh K." place="Gangtok" />
         </div>
-        </>)
-        }
+        </>
+        )
+    }
 
-    {subpage === 'calender' && (
-        <>
-        <div className="navbar bg-base-100 shadow-sm fixed top-0 left-0 w-full z-50  ">
-          <button onClick={() => setSubpage('home')} className='btn btn-ghost btn-square mr-2'>
-            <IconChevronLeft size={36} />
-          </button>
-          <h1 className="text-5xl font-bold">Calender</h1>
-        </div>
 
-        <div className='h-16 w-full'/>
-
+        {/*
         <Calendar
           onChange={(e) => setValue(e && toYYYYMMDD(e.toLocaleString()) || "") }
           value={value}
           className="rounded-lg text-xs react-calendar"
         />
+
         {
         events[value] && 
         <div className="py-4">
@@ -66,8 +59,7 @@ export default function Commmunity() {
           </ul>
         </div>
         }
-        </>
-    )}
+        */}
 
     </>
   );
