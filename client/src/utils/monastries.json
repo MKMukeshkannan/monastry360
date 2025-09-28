@@ -11,9 +11,9 @@
     },
     "description": "Rumtek Monastery, also known as the Dharma Chakra Centre, is the largest monastery in Sikkim and serves as the seat",
     "image": [ 
-        "places/rumtek_monastery/rumtek_monastery_1.webp", 
-        "places/rumtek_monastery/rumtek_monastery_2.webp", 
-        "places/rumtek_monastery/rumtek_monastery_3.webp" 
+        "/places/rumtek_monastery/rumtek_monastery_1.webp", 
+        "/places/rumtek_monastery/rumtek_monastery_2.webp", 
+        "/places/rumtek_monastery/rumtek_monastery_3.webp" 
     ],
     "panoromic": [],
     "models": []
@@ -30,9 +30,9 @@
     },
     "description": "Buddha Park of Ravangla, also known as Tathagata Tsal, is a magnificent spiritual and cultural landmark located near Ravangla in",
     "image": [
-        "places/buddha_park/buddha_park_1.jpg",
-        "places/buddha_park/buddha_park_2.jpg",
-        "places/buddha_park/buddha_park_3.jpg"
+        "/places/buddha_park/buddha_park_1.jpg",
+        "/places/buddha_park/buddha_park_2.jpg",
+        "/places/buddha_park/buddha_park_3.jpg"
     ],
     "panoromic": [ "panoromic/" ],
     "models": [ "models/buddha.glb" ]
@@ -49,10 +49,10 @@
     },
     "description": "Pemayangtse Monastery, meaning 'Perfect Sublime Lotus,' is one of the oldest and most important monasteries in Sikkim, perched at an",
     "image": [ 
-        "places/pemayangtse_monastery/pemayangtse_monastery_1.webp", 
-        "places/pemayangtse_monastery/pemayangtse_monastery_2.webp", 
-        "places/pemayangtse_monastery/pemayangtse_monastery_3.webp", 
-        "places/pemayangtse_monastery/pemayangtse_monastery_4.webp" 
+        "/places/pemayangtse_monastery/pemayangtse_monastery_1.webp", 
+        "/places/pemayangtse_monastery/pemayangtse_monastery_2.webp", 
+        "/places/pemayangtse_monastery/pemayangtse_monastery_3.webp", 
+        "/places/pemayangtse_monastery/pemayangtse_monastery_4.webp" 
     ],
     "panoromic": [],
     "models": []
@@ -69,9 +69,9 @@
     },
     "description": "Tashiding Monastery, perched on a hilltop between the Rathong and Rangeet rivers, is considered one of the most sacred monasteries",
     "image": [
-         "places/tashiding_monastery/tashiding_monastery_1.webp",
-         "places/tashiding_monastery/tashiding_monastery_2.webp",
-         "places/tashiding_monastery/tashiding_monastery_3.webp"
+         "/places/tashiding_monastery/tashiding_monastery_1.webp",
+         "/places/tashiding_monastery/tashiding_monastery_2.webp",
+         "/places/tashiding_monastery/tashiding_monastery_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -88,9 +88,9 @@
     },
     "description": "Dubdi Monastery, also known as Hermit's Cell, holds the distinction of being the oldest monastery in Sikkim, founded in 1701.",
     "image": [
-        "places/dubdi_monastery/dubdi_monastery_1.webp",
-        "places/dubdi_monastery/dubdi_monastery_2.webp",
-        "places/dubdi_monastery/dubdi_monastery_3.webp"
+        "/places/dubdi_monastery/dubdi_monastery_1.webp",
+        "/places/dubdi_monastery/dubdi_monastery_2.webp",
+        "/places/dubdi_monastery/dubdi_monastery_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -107,9 +107,9 @@
     },
     "description": "Sanga Choeling Monastery, perched at an altitude of 7,200 feet, is the second oldest monastery in Sikkim and offers spectacular",
     "image": [
-        "places/sanga_choeling_monastery/sanga_choeling_monastery_1.webp",
-        "places/sanga_choeling_monastery/sanga_choeling_monastery_2.webp",
-        "places/sanga_choeling_monastery/sanga_choeling_monastery_3.webp"
+        "/places/sanga_choeling_monastery/sanga_choeling_monastery_1.webp",
+        "/places/sanga_choeling_monastery/sanga_choeling_monastery_2.webp",
+        "/places/sanga_choeling_monastery/sanga_choeling_monastery_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -126,9 +126,9 @@
     },
     "description": "Lachung Monastery, situated in the picturesque village of Lachung in North Sikkim, is a beautiful example of Tibetan Buddhist architecture",
     "image": [
-        "places/lachung_monastery/lachung_monastery_1.webp",
-        "places/lachung_monastery/lachung_monastery_2.webp",
-        "places/lachung_monastery/lachung_monastery_3.webp"
+        "/places/lachung_monastery/lachung_monastery_1.webp",
+        "/places/lachung_monastery/lachung_monastery_2.webp",
+        "/places/lachung_monastery/lachung_monastery_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -145,9 +145,9 @@
     },
     "description": "Enchey Monastery, located on a hilltop in Gangtok, is one of the most important monasteries in the capital city of",
     "image": [
-        "places/enchey_monastery_gangtok/enchey_monastery_gangtok_1.webp",
-        "places/enchey_monastery_gangtok/enchey_monastery_gangtok_2.webp",
-        "places/enchey_monastery_gangtok/enchey_monastery_gangtok_3.webp"
+        "/places/enchey_monastery_gangtok/enchey_monastery_gangtok_1.webp",
+        "/places/enchey_monastery_gangtok/enchey_monastery_gangtok_2.webp",
+        "/places/enchey_monastery_gangtok/enchey_monastery_gangtok_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -164,9 +164,9 @@
     },
     "description": "Samdruptse Monastery, located on a hilltop in Namchi, is famous for housing a magnificent 135-foot tall statue of Guru Padmasambhava",
     "image": [
-        "places/samdruptse_monastery_namchi/samdruptse_monastery_namchi_1.webp",
-        "places/samdruptse_monastery_namchi/samdruptse_monastery_namchi_2.webp",
-        "places/samdruptse_monastery_namchi/samdruptse_monastery_namchi_3.webp"
+        "/places/samdruptse_monastery_namchi/samdruptse_monastery_namchi_1.webp",
+        "/places/samdruptse_monastery_namchi/samdruptse_monastery_namchi_2.webp",
+        "/places/samdruptse_monastery_namchi/samdruptse_monastery_namchi_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -183,9 +183,9 @@
     },
     "description": "Ngadak Monastery, situated in the Namchi area of South Sikkim, is a peaceful religious complex that serves the local Buddhist",
     "image": [
-        "places/ngadak_monastery_namchi_area/ngadak_monastery_namchi_area_1.webp",
-        "places/ngadak_monastery_namchi_area/ngadak_monastery_namchi_area_2.webp",
-        "places/ngadak_monastery_namchi_area/ngadak_monastery_namchi_area_3.webp"
+        "/places/ngadak_monastery_namchi_area/ngadak_monastery_namchi_area_1.webp",
+        "/places/ngadak_monastery_namchi_area/ngadak_monastery_namchi_area_2.webp",
+        "/places/ngadak_monastery_namchi_area/ngadak_monastery_namchi_area_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -202,10 +202,10 @@
     },
     "description": "Lingdum Monastery, also known as Pal Zurmang Kagyud Monastery, is a relatively modern but architecturally stunning monastery located near Ranka",
     "image": [
-        "places/lingdum_monastery/lingdum_monastery_1.webp",
-        "places/lingdum_monastery/lingdum_monastery_2.webp",
-        "places/lingdum_monastery/lingdum_monastery_3.webp",
-        "places/lingdum_monastery/lingdum_monastery_4.webp"
+        "/places/lingdum_monastery/lingdum_monastery_1.webp",
+        "/places/lingdum_monastery/lingdum_monastery_2.webp",
+        "/places/lingdum_monastery/lingdum_monastery_3.webp",
+        "/places/lingdum_monastery/lingdum_monastery_4.webp"
     ],
     "panoromic": [],
     "models": []
@@ -222,9 +222,9 @@
     },
     "description": "Tsomgo Lake, also known as Changu Lake, is a pristine glacial lake situated at an elevation of 3,753 meters in",
     "image": [
-        "places/tsomgo_lake_changu_lake/tsomgo_lake__changu_lake_1.webp",
-        "places/tsomgo_lake_changu_lake/tsomgo_lake__changu_lake_2.webp",
-        "places/tsomgo_lake_changu_lake/tsomgo_lake__changu_lake_3.webp"
+        "/places/tsomgo_lake_changu_lake/tsomgo_lake__changu_lake_1.webp",
+        "/places/tsomgo_lake_changu_lake/tsomgo_lake__changu_lake_2.webp",
+        "/places/tsomgo_lake_changu_lake/tsomgo_lake__changu_lake_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -241,9 +241,9 @@
     },
     "description": "Yumthang Valley, often called the 'Valley of Flowers,' is a breathtaking high-altitude valley located in North Sikkim at an elevation",
     "image": [
-        "places/yumthang_valley/yumthang_valley_1.webp",
-        "places/yumthang_valley/yumthang_valley_2.webp",
-        "places/yumthang_valley/yumthang_valley_3.webp"
+        "/places/yumthang_valley/yumthang_valley_1.webp",
+        "/places/yumthang_valley/yumthang_valley_2.webp",
+        "/places/yumthang_valley/yumthang_valley_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -260,9 +260,9 @@
     },
     "description": "Zero Point, also known as Yume Samdong, is a pristine high-altitude destination located at 15,300 feet above sea level in",
     "image": [
-        "places/zero_point_near_yamthang/zero_point___near_yamthang_1.webp",
-        "places/zero_point_near_yamthang/zero_point___near_yamthang_2.webp",
-        "places/zero_point_near_yamthang/zero_point___near_yamthang_3.webp"
+        "/places/zero_point_near_yamthang/zero_point___near_yamthang_1.webp",
+        "/places/zero_point_near_yamthang/zero_point___near_yamthang_2.webp",
+        "/places/zero_point_near_yamthang/zero_point___near_yamthang_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -279,9 +279,9 @@
     },
     "description": "Gurudongmar Lake, situated at an elevation of 17,800 feet, is one of the highest lakes in the world and holds",
     "image": [
-        "places/gurudongmar_lake/gurudongmar_lake_1.webp",
-        "places/gurudongmar_lake/gurudongmar_lake_2.webp",
-        "places/gurudongmar_lake/gurudongmar_lake_3.avif"
+        "/places/gurudongmar_lake/gurudongmar_lake_1.webp",
+        "/places/gurudongmar_lake/gurudongmar_lake_2.webp",
+        "/places/gurudongmar_lake/gurudongmar_lake_3.avif"
     ],
     "panoromic": [],
     "models": []
@@ -298,9 +298,9 @@
     },
     "description": "The Singshore Bridge in Pelling is the highest suspension bridge in Sikkim and the second-highest railway bridge in Asia, spanning",
     "image": [
-        "places/singshore_bridge_pelling/singshore_bridge__pelling_1.avif",
-        "places/singshore_bridge_pelling/singshore_bridge__pelling_2.webp",
-        "places/singshore_bridge_pelling/singshore_bridge__pelling_3.webp"
+        "/places/singshore_bridge_pelling/singshore_bridge__pelling_1.avif",
+        "/places/singshore_bridge_pelling/singshore_bridge__pelling_2.webp",
+        "/places/singshore_bridge_pelling/singshore_bridge__pelling_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -317,10 +317,10 @@
     },
     "description": "The Chenrezig Statue and Skywalk in Pelling is one of Sikkim's newest and most spectacular attractions, featuring a magnificent 137-foot",
     "image": [
-        "places/chenrezig_statue_skywalk_pelling/chenrezig_statue_skywalk_pelling_1.webp",
-        "places/chenrezig_statue_skywalk_pelling/chenrezig_statue_skywalk_pelling_2.webp",
-        "places/chenrezig_statue_skywalk_pelling/chenrezig_statue_skywalk_pelling_3.webp",
-        "places/chenrezig_statue_skywalk_pelling/chenrezig_statue_skywalk_pelling_4.webp"
+        "/places/chenrezig_statue_skywalk_pelling/chenrezig_statue_skywalk_pelling_1.webp",
+        "/places/chenrezig_statue_skywalk_pelling/chenrezig_statue_skywalk_pelling_2.webp",
+        "/places/chenrezig_statue_skywalk_pelling/chenrezig_statue_skywalk_pelling_3.webp",
+        "/places/chenrezig_statue_skywalk_pelling/chenrezig_statue_skywalk_pelling_4.webp"
     ],
     "panoromic": [],
     "models": []
@@ -337,9 +337,9 @@
     },
     "description": "Shingba Rhododendron Sanctuary, established in 1984, is a spectacular protected area covering 43 square kilometers in North Sikkim, renowned for",
     "image": [
-        "places/shingba_rhododendron_sanctuary/shingba_rhododendron_sanctuary_1.webp",
-        "places/shingba_rhododendron_sanctuary/shingba_rhododendron_sanctuary_2.webp",
-        "places/shingba_rhododendron_sanctuary/shingba_rhododendron_sanctuary_3.webp"
+        "/places/shingba_rhododendron_sanctuary/shingba_rhododendron_sanctuary_1.webp",
+        "/places/shingba_rhododendron_sanctuary/shingba_rhododendron_sanctuary_2.webp",
+        "/places/shingba_rhododendron_sanctuary/shingba_rhododendron_sanctuary_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -356,9 +356,9 @@
     },
     "description": "The Rabdentse Ruins represent the archaeological remains of the ancient capital of the Kingdom of Sikkim from 1670 to 1814,",
     "image": [
-        "places/rabdentse_ruins/rabdentse_ruins_1.avif",
-        "places/rabdentse_ruins/rabdentse_ruins_2.webp",
-        "places/rabdentse_ruins/rabdentse_ruins_3.webp"
+        "/places/rabdentse_ruins/rabdentse_ruins_1.avif",
+        "/places/rabdentse_ruins/rabdentse_ruins_2.webp",
+        "/places/rabdentse_ruins/rabdentse_ruins_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -375,9 +375,9 @@
     },
     "description": "Namchi, meaning 'top of the sky' in the Bhutia language, is the district headquarters of South Sikkim and a rapidly",
     "image": [
-        "places/namchi/namchi_1.webp",
-        "places/namchi/namchi_2.webp",
-        "places/namchi/namchi_3.webp"
+        "/places/namchi/namchi_1.webp",
+        "/places/namchi/namchi_2.webp",
+        "/places/namchi/namchi_3.webp"
     ],
     "panoromic": [],
     "models": []

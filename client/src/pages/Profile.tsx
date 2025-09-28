@@ -2,7 +2,6 @@
 
 import { PostCard } from "@/components/Post";
 import { useUserStore } from "@/utils/store";
-import Image from "next/image";
 
 const my_posts = [{
   image: "/places/dubdi_monastery/dubdi_monastery_2.webp",
@@ -65,7 +64,7 @@ export default function ProfilePage() {
         </div>
       </div>
 
-      <div className="card bg-base-100 shadow-xl mt-4 p-4">
+      <div className="card bg-base-100 shadow-xl mt-4 p-4 flex flex-col items-center justify-center">
         {my_posts.map((val, ind) => <PostCard key={ind} image={val.image} likes={val.likes} caption={val.caption} username={val.username} place={val.place} />)}
       </div>
     </>
