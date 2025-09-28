@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, FormEvent, useRef } from 'react';
+import { useState, FormEvent, useRef, RefObject } from 'react';
 import { CameraModal } from '@/components/CameraModal';
 import { InputForm } from '@/components/InputForm';
 import { ResultsView } from '@/components/ResultsView';
@@ -31,16 +31,22 @@ function dataURLtoBlob(dataurl: string): Blob | null {
   }
 }
 
+
+interface Source {
+  name?: string;
+  link?: string;
+}
 export default function Search() {
   const [query, setQuery] = useState('');
   const [currentQuery, setCurrentQuery] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [generatedAnswer, setGeneratedAnswer] = useState<string>('');
-  const [sources, setSources] = useState<any[]>([]);
+
+  const [sources, setSources] = useState<Source[]>([]);
   const [hasSearched, setHasSearched] = useState(false);
   const [capturedImage, setCapturedImage] = useState<string | null>(null);
   const [isCameraOpen, setIsCameraOpen] = useState(false);
-  const inputRef = useRef<HTMLInputElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null) as RefObject<HTMLInputElement>;
 
   const performSearch = async (searchQuery: string, image: string | null) => {
     if (!searchQuery.trim() || isLoading) return;
@@ -81,8 +87,8 @@ export default function Search() {
       const data = await response.json();
       setGeneratedAnswer(data.data ?? "");
 
-      const uniqueSources = (data.sources || []).filter((source: any, index: number, self: any[]) =>
-        source.link && index === self.findIndex((s: any) => s.link === source.link)
+      const uniqueSources = (data.sources || []).filter((source: Source, index: number, self: Source[]) =>
+        source.link && index === self.findIndex((s: Source) => s.link === source.link)
       );
       setSources(uniqueSources);
 

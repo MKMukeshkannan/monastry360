@@ -21,11 +21,15 @@ function normalizeMarkdown(input: unknown): string {
   return s;
 }
 
+interface Source {
+  name?: string;
+  link?: string;
+}
 interface ResultsViewProps {
   isLoading: boolean;
   currentQuery: string;
   generatedAnswer: string;
-  sources: any[];
+  sources: Source[];
   onQuestionClick: (question: string) => void;
 }
 
