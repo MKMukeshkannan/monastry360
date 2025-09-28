@@ -7,6 +7,7 @@ import { useUserStore } from '@/utils/store'
 import Home from "@/pages/Home";
 import Commmunity from "@/pages/Community";
 import Profile from "@/pages/Profile";
+import Search from "@/pages/Search";
 
 const navItems = [
   { label: "Community",  icon: <IconUsersGroup size={24} />},
@@ -78,7 +79,3 @@ const Map = () => {
     return <><h1 className="text-black">map</h1></>
 };
 
-
-const Search = () => {
-    return <><h1 className="text-black">search</h1></>
-};

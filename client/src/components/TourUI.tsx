@@ -62,7 +62,7 @@ export function TourUI({
       {/* Middle Left: Description Card */}
       {isTourActive && currentStepData && (
         <div className={`select-none pointer-events-auto transition-opacity duration-300 ${isDescriptionVisible ? 'opacity-100' : 'opacity-0'}`}>
-          <div className="card w-full max-w-md bg-base-100/70 shadow-xl backdrop-blur-md">
+          <div className="card w-full max-w-md bg-base-700/70 shadow-2xl backdrop-blur-md">
             <div className="card-body">
               <h2 className="card-title text-2xl">{currentStepData.name}</h2>
               <p>{currentStepData.description}</p>
