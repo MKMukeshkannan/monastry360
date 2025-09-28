@@ -1,0 +1,53 @@
+[
+  {
+    "id": "gundruk-soup",
+    "name": "Gundruk Soup",
+    "type": "fermented vegetable soup",
+    "location": "Sikkim",
+    "description": "A tangy soup made from fermented leafy greens (like mustard, radish, cauliflower leaves), cooked with onions, tomatoes and spices. A warming dish especially in cold weather in Sikkim.",
+    "image": [
+      "food/gundruk_soup_1.webp"
+    ]
+  },
+  {
+    "id": "sel-roti",
+    "name": "Sel Roti",
+    "type": "sweet rice bread / fried snack",
+    "location": "Sikkim",
+    "description": "Ring-shaped, deep-fried bread made from fermented rice batter. Crispy outside, soft inside. Often eaten during festivals or with tea or curry.",
+    "image": [
+      "food/sel_roti_1.png"
+    ]
+  },
+  {
+    "id": "phagshapa",
+    "name": "Phagshapa",
+    "type": "meat curry",
+    "location": "Sikkim",
+    "description": "A rich pork dish cooked with strips of pork fat, radishes and dried red chillies. Bold flavours, popular among meat-eaters in Sikkim.",
+    "image": [
+      "food/phagshapa_1.png"
+    ]
+  },
+  {
+    "id": "thukpa",
+    "name": "Thukpa",
+    "type": "noodle soup",
+    "location": "Sikkim",
+    "description": "A hearty noodle soup (vegetarian or with meat) influenced by Tibetan cuisine. Contains vegetables, meat or tofu in a flavorful broth. Comforting in cold mountain weather.",
+    "image": [
+      "food/thukpa_1.jpg"
+    ]
+  },
+  {
+    "id": "chhurpi",
+    "name": "Chhurpi",
+    "type": "cheese / snack / soup ingredient",
+    "location": "Sikkim",
+    "description": "A traditional cheese made from cow or yak milk. Comes in hard and soft varieties. Used as a chew-snack or cooked into soups or curries.",
+    "image": [
+      "food/chhurpi_1.jpg"
+    ]
+  }
+]
+

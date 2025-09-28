@@ -4,6 +4,29 @@ import { PostCard } from "@/components/Post";
 import { useUserStore } from "@/utils/store";
 import Image from "next/image";
 
+const my_posts = [{
+  image: "/places/dubdi_monastery/dubdi_monastery_2.webp",
+  likes: 412,
+  caption: "Morning prayers at the serene Dubdi Monastery 🌄",
+  username: "John",
+  place: "Dubdi Monastery",
+},
+{
+  image: "/places/chenrezig_statue_skywalk_pelling/chenrezig_statue_skywalk_pelling_3.webp",
+  likes: 367,
+  caption: "Incredible view from the Chenrezig Skywalk 😍",
+  username: "John",
+  place: "Chenrezig Statue Skywalk, Pelling",
+},
+{
+  image: "/places/singshore_bridge_pelling/singshore_bridge__pelling_2.webp",
+  likes: 298,
+  caption: "Crossing the breathtaking Singshore Bridge 🌉",
+  username: "John",
+  place: "Singshore Bridge, Pelling",
+}]
+
+
 interface UserProfile {
   name: string;
   email: string;
@@ -43,13 +66,7 @@ export default function ProfilePage() {
       </div>
 
       <div className="card bg-base-100 shadow-xl mt-4 p-4">
-         <PostCard image="https://www.esikkimtourism.in/wp-content/uploads/2019/04/topmarch.jpg" likes={128} caption="Enjoying a sunny day in Sikkim!" username="Mukesh K." place="Gangtok" />
-         <PostCard image="https://www.esikkimtourism.in/wp-content/uploads/2019/04/topmarch.jpg" likes={128} caption="Enjoying a sunny day in Sikkim!" username="Mukesh K." place="Gangtok" />
-         <PostCard image="https://www.esikkimtourism.in/wp-content/uploads/2019/04/topmarch.jpg" likes={128} caption="Enjoying a sunny day in Sikkim!" username="Mukesh K." place="Gangtok" />
-         <PostCard image="https://www.esikkimtourism.in/wp-content/uploads/2019/04/topmarch.jpg" likes={128} caption="Enjoying a sunny day in Sikkim!" username="Mukesh K." place="Gangtok" />
-         <PostCard image="https://www.esikkimtourism.in/wp-content/uploads/2019/04/topmarch.jpg" likes={128} caption="Enjoying a sunny day in Sikkim!" username="Mukesh K." place="Gangtok" />
-         <PostCard image="https://www.esikkimtourism.in/wp-content/uploads/2019/04/topmarch.jpg" likes={128} caption="Enjoying a sunny day in Sikkim!" username="Mukesh K." place="Gangtok" />
-         <PostCard image="https://www.esikkimtourism.in/wp-content/uploads/2019/04/topmarch.jpg" likes={128} caption="Enjoying a sunny day in Sikkim!" username="Mukesh K." place="Gangtok" />
+        {my_posts.map((val, ind) => <PostCard key={ind} image={val.image} likes={val.likes} caption={val.caption} username={val.username} place={val.place} />)}
       </div>
     </>
   );

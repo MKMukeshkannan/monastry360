@@ -7,6 +7,15 @@ import { useRouter } from "next/navigation";
 import monasteries_raw from "@/utils/monastries.json";
 const monasteries = monasteries_raw as Place[];
 
+import accomodation_raw from "@/utils/accomodation.json";
+const accomodation = accomodation_raw as Place[];
+
+import food_raw from "@/utils/food.json";
+const food = food_raw as Place[];
+
+import activities_raw from "@/utils/activities.json";
+const activities = activities_raw as Place[];
+
 interface PlaceContent { overview: string; history: string; architecture: string; }
 interface Place { id: string; name: string; type: string; location: string; description: string; content: PlaceContent; panoromic: string[]; models: string[]; image: string[] }
 
@@ -20,7 +29,6 @@ export default function Home() {
   const router = useRouter();
 
   return <>
-
     {subpage === 'home' &&
         <>
         <div className="navbar bg-base-100 shadow-sm fixed top-0 left-0 w-full z-50 ">
@@ -38,12 +46,19 @@ export default function Home() {
         </div>
 
         <h1 className="text-black text-5xl font-bold mt-18 ">Popular Places</h1>
-        <HorizontalCards setMonastery={setMonastery} setPage={setSubpage} items={monasteries} />
+        <HorizontalCards showMore setMonastery={setMonastery} setPage={setSubpage} items={monasteries} />
 
         <br />
 
         <h1 className="text-black text-5xl font-bold">Accomodation</h1>
-        {/*<HorizontalCards items={items} />*/}
+        <HorizontalCards showMore={false} setMonastery={setMonastery} setPage={setSubpage} items={accomodation} />
+
+        <h1 className="text-black text-5xl font-bold">Food</h1>
+        <HorizontalCards showMore={false} setMonastery={setMonastery} setPage={setSubpage} items={food} />
+
+        <h1 className="text-black text-5xl font-bold">Activities</h1>
+        <HorizontalCards showMore={false} setMonastery={setMonastery} setPage={setSubpage} items={activities} />
+
         </>
     }
 
@@ -116,8 +131,8 @@ export default function Home() {
     </>
 };
 
-interface Props { setPage: Dispatch<React.SetStateAction<TSubPage>> , setMonastery :Dispatch<React.SetStateAction<Place|undefined>> , items: Place[]; }
-const HorizontalCards: React.FC<Props> = ({ items, setMonastery, setPage }) => {
+interface Props { setPage: Dispatch<React.SetStateAction<TSubPage>> , setMonastery :Dispatch<React.SetStateAction<Place|undefined>> , items: Place[]; showMore: boolean; }
+const HorizontalCards: React.FC<Props> = ({ items, setMonastery, setPage, showMore }) => {
   return (
     <div className="overflow-x-auto py-4">
       <div className="flex space-x-4">
@@ -132,10 +147,10 @@ const HorizontalCards: React.FC<Props> = ({ items, setMonastery, setPage }) => {
                 <h2 className="card-title">{item.name}</h2>
                 <p>{item.description}</p>
                 <div className="card-actions justify-end">
-                  <button onClick={() => {
+                {showMore && <button onClick={() => {
                       setPage('monastery'); 
                       setMonastery(item);
-                  }} className="btn btn-primary">Learn More</button>
+                  }} className="btn btn-primary">Learn More</button> }
                 </div>
               </div>
             </div>

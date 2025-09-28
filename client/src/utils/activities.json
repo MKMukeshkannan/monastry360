@@ -1,0 +1,43 @@
+[
+  {
+    "id": "teesta-river-rafting",
+    "name": "Teesta River Rafting",
+    "type": "river adventure",
+    "location": "Sikkim",
+    "description": "Thrilling white-water rafting on the Teesta River. Rapids of varying grades make it a favourite for adventure seekers. Ideal between March and May.",
+    "image": [
+      "activities/teesta_rafting_1.jpg"
+    ]
+  },
+  {
+    "id": "mountaineering-expeditions",
+    "name": "Mountaineering Expeditions",
+    "type": "high altitude trekking / climbing",
+    "location": "Sikkim",
+    "description": "Scale peaks such as Mt. Kanchenjunga, Mt. Kabru, Mt. Siniolchu etc. Permits needed. Best done between April-June and September-November.",
+    "image": [
+      "activities/mountaineering_1.webp"
+    ]
+  },
+  {
+    "id": "yak-safari-tomso-lake",
+    "name": "Yak Safari at Tsomgo Lake",
+    "type": "animal / nature experience",
+    "location": "Tsomgo Lake, Sikkim",
+    "description": "Ride a yak around the scenic Tsomgo (Changu) Lake. Offers views of snow-capped mountains and glacial landscapes.",
+    "image": [
+      "activities/yak_safari_1.jpeg"
+    ]
+  },
+  {
+    "id": "paragliding-gangtok",
+    "name": "Paragliding in Gangtok",
+    "type": "aerial sport",
+    "location": "Gangtok, Sikkim",
+    "description": "Soar above the hills and gaze at Himalayan panoramas. Paragliding offers a bird’s eye view of the valleys and rugged terrain.",
+    "image": [
+      "activities/paragliding_1.jpeg"
+    ]
+  }
+]
+
