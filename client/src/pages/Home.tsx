@@ -138,19 +138,28 @@ const HorizontalCards: React.FC<Props> = ({ items, setMonastery, setPage, showMo
       <div className="flex space-x-4">
         {items.slice(0, 5).map((item, ind) => (
             <div className="card bg-base-100 min-w-72 shadow-sm" key={ind}>
-              <figure>
+              <figure className="h-48 w-full overflow-hidden">
                 <img
                   src={item.image[0]}
-                  alt={item.name} />
+                  alt={item.name}
+                  className="w-full h-full object-cover"
+                />
               </figure>
               <div className="card-body">
                 <h2 className="card-title">{item.name}</h2>
                 <p>{item.description}</p>
                 <div className="card-actions justify-end">
-                {showMore && <button onClick={() => {
-                      setPage('monastery'); 
-                      setMonastery(item);
-                  }} className="btn btn-primary">Learn More</button> }
+                  {showMore && (
+                    <button
+                      onClick={() => {
+                        setPage("monastery");
+                        setMonastery(item);
+                      }}
+                      className="btn btn-primary"
+                    >
+                      Learn More
+                    </button>
+                  )}
                 </div>
               </div>
             </div>
