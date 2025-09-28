@@ -5,7 +5,7 @@ import { use, useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation';
 
 interface PlaceContent { overview: string; history: string; architecture: string; }
-interface Place { id: string; name: string; type: string; location: string; description: string; content: PlaceContent; panoromic: string[]; models: string[]; image: string[] }
+interface Place { id: string; name: string; type: string; latitude: number; longitude: number; location: string; description: string; content: PlaceContent; panoromic: string[]; models: string[]; image: string[] }
 import monasteries_raw from "@/utils/monastries.json";
 const monasteries = monasteries_raw as Place[];
  
@@ -32,7 +32,7 @@ export default function BlogPostPage({ params, }: { params: Promise<{ slug: stri
 
         <div className="p-2 max-w-5xl mx-auto mt-10">
           {/* Header */}
-          <div className="flex flex-col md:flex-row gap-6 mb-6">
+          <div className="flex flex-col md:flex-row gap-6 my-6">
             <div className="md:w-1/2">
               <img
                 src={monastery.image[0]}

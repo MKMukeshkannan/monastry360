@@ -8,6 +8,7 @@ import Home from "@/pages/Home";
 import Commmunity from "@/pages/Community";
 import Profile from "@/pages/Profile";
 import Search from "@/pages/Search";
+import Map from "@/pages/Map";
 
 const navItems = [
   { label: "Community",  icon: <IconUsersGroup size={24} />},
@@ -73,9 +74,3 @@ export default function MobileUI() {
     </div>
   );
 }
-
-
-const Map = () => {
-    return <><h1 className="text-black">map</h1></>
-};
-

@@ -73,7 +73,7 @@ export default function Home() {
 
         <div className="p-2 max-w-5xl mx-auto mt-10">
           {/* Header */}
-          <div className="flex flex-col md:flex-row gap-6 mb-6">
+          <div className="flex flex-col md:flex-row gap-6 my-6">
             <div className="md:w-1/2">
               <img
                 src={monastery.image[0]}

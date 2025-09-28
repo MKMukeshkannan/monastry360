@@ -4,16 +4,18 @@
     "name": "Rumtek Monastery",
     "type": "monastery",
     "location": "East Sikkim, Rumtek (23km from Gangtok)",
+    "latitude": 27.2917,
+    "longitude": 88.5721,
     "content": {
       "overview": "Rumtek Monastery, also known as the Dharma Chakra Centre, is the largest monastery in Sikkim and serves as the seat of the Gyalwa Karmapa of the Kagyu sect of Tibetan Buddhism. Located 23 kilometers from Gangtok at an elevation of 1,550 meters, this monastery is considered one of the most significant centers of Tibetan Buddhism outside Tibet. The monastery houses over 300 monks and is renowned for its religious festivals, particularly the annual masked dance ceremonies. Visitors can explore its magnificent halls, witness daily prayer sessions, and experience the serene spiritual atmosphere that pervades this sacred site.",
       "history": "Originally built in the mid-18th century under the direction of Changchub Dorje, the 12th Karmapa Lama, Rumtek served as the main seat of the Karma Kagyu lineage in Sikkim. The monastery was later rebuilt in the 16th century by the 9th Karmapa, Wangchuk Dorje. However, it was destroyed during the Nepalese invasion in the 18th century and lay in ruins for nearly two centuries. When the 16th Karmapa, Rangjung Rigpe Dorje, fled Tibet in 1959, he arrived in Sikkim and lovingly rebuilt the monastery in the 1960s. Today, it stands as a symbol of preserved Tibetan Buddhist culture and continues the ancient traditions and teachings of the Karma Kagyu school.",
       "architecture": "Rumtek Monastery showcases a perfect blend of traditional Tibetan architectural design with modern elements. The main building features a distinctive three-story structure with golden roofs, colorful prayer flags, and intricate woodwork. The monastery is adorned with vibrant wall paintings, murals depicting Buddhist deities, and elaborate carvings throughout its corridors and prayer halls. The main prayer hall houses a magnificent golden stupa, ancient relics, precious statues, and a remarkable collection of thangkas (Tibetan Buddhist paintings). The monastery complex includes residential quarters for monks, a library containing ancient Buddhist manuscripts, and beautifully landscaped gardens that complement the traditional Tibetan architectural aesthetics."
     },
     "description": "Rumtek Monastery, also known as the Dharma Chakra Centre, is the largest monastery in Sikkim and serves as the seat",
-    "image": [ 
-        "/places/rumtek_monastery/rumtek_monastery_1.webp", 
-        "/places/rumtek_monastery/rumtek_monastery_2.webp", 
-        "/places/rumtek_monastery/rumtek_monastery_3.webp" 
+    "image": [
+      "/places/rumtek_monastery/rumtek_monastery_1.webp",
+      "/places/rumtek_monastery/rumtek_monastery_2.webp",
+      "/places/rumtek_monastery/rumtek_monastery_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -23,6 +25,8 @@
     "name": "Buddha Park of Ravangla (Tathagata Tsal)",
     "type": "place",
     "location": "South Sikkim, Ravangla",
+    "latitude": 27.3105,
+    "longitude": 88.3671,
     "content": {
       "overview": "Buddha Park of Ravangla, also known as Tathagata Tsal, is a magnificent spiritual and cultural landmark located near Ravangla in South Sikkim. The centerpiece of this 40-acre park is a towering 130-foot statue of Lord Buddha, one of the tallest Buddha statues in India, which was consecrated in 2013. Set against the backdrop of the majestic Kanchenjunga range, the park offers breathtaking panoramic views and serves as a center for meditation and spiritual reflection. The park features beautifully landscaped gardens, walking trails, meditation huts, and a museum showcasing Buddhist art and philosophy. Built at an elevation of 8,000 feet, the site was carefully chosen for its serene atmosphere and spectacular mountain views. The park attracts thousands of visitors annually, serving both as a pilgrimage site for Buddhist devotees and as a major tourist attraction. The combination of spiritual significance, architectural grandeur, and natural beauty makes it one of the most visited destinations in South Sikkim.",
       "history": "The conception of Buddha Park of Ravangla began in the early 2000s as part of Sikkim's initiative to promote Buddhist tourism and preserve its rich Buddhist heritage. Construction commenced in 2006 under the patronage of the Sikkim government and was completed in 2013 after seven years of dedicated work. The project was envisioned to create a center for Buddhist learning and meditation while boosting tourism in the region. The site was blessed by His Holiness the Dalai Lama and other prominent Buddhist leaders, adding to its spiritual significance. The park was inaugurated during the auspicious occasion of Buddha Purnima in 2013, marking a significant milestone in Sikkim's cultural and religious landscape. The development involved careful planning to ensure harmony with the natural environment and Buddhist architectural principles. Local artisans and craftspeople were involved in creating various elements of the park, including intricate stone carvings and traditional decorations. The park has since become a symbol of peace and enlightenment, hosting various Buddhist festivals and serving as a venue for international Buddhist conferences and cultural events.",
@@ -30,9 +34,9 @@
     },
     "description": "Buddha Park of Ravangla, also known as Tathagata Tsal, is a magnificent spiritual and cultural landmark located near Ravangla in",
     "image": [
-        "/places/buddha_park/buddha_park_1.jpg",
-        "/places/buddha_park/buddha_park_2.jpg",
-        "/places/buddha_park/buddha_park_3.jpg"
+      "/places/buddha_park/buddha_park_1.jpg",
+      "/places/buddha_park/buddha_park_2.jpg",
+      "/places/buddha_park/buddha_park_3.jpg"
     ],
     "panoromic": [ "panoromic/" ],
     "models": [ "models/buddha.glb" ]
@@ -42,17 +46,19 @@
     "name": "Pemayangtse Monastery",
     "type": "monastery",
     "location": "West Sikkim, Pelling (2km from Pelling town)",
+    "latitude": 27.3108,
+    "longitude": 88.2570,
     "content": {
       "overview": "Pemayangtse Monastery, meaning 'Perfect Sublime Lotus,' is one of the oldest and most important monasteries in Sikkim, perched at an elevation of 2,085 meters in West Sikkim. Built for the 'ta-tshang' (pure monks) of the Nyingma sect, it maintains strict admission criteria where only unmarried monks are allowed. The monastery offers spectacular panoramic views of the Kanchenjunga range and surrounding Himalayan peaks. It houses rare Buddhist artifacts, ancient manuscripts, and beautiful sculptures. The monastery plays a crucial role in Sikkim's religious and cultural heritage and attracts thousands of visitors annually who come to experience its spiritual ambiance and architectural grandeur.",
       "history": "Founded in 1705 by Lama Lhatsun Chempo, Pemayangtse Monastery was established as the head monastery of the Nyingma sect in Sikkim. It was built under the patronage of the third Chogyal (king) Chakdor Namgyal and has served as the premier monastery for pure monks of the Nyingma order for over three centuries. The monastery has witnessed significant historical events, including the coronation ceremonies of Sikkimese kings. It has survived various political upheavals and continues to maintain its traditional practices and rituals. The monastery has been renovated several times while preserving its original architectural integrity and spiritual significance, making it a living testament to Sikkim's rich Buddhist heritage.",
       "architecture": "The monastery exemplifies traditional Tibetan architecture with its distinctive three-story structure built entirely of stone and timber without using any nails. The building features sloping roofs with traditional cornices, ornate windows, and colorful external decorations. The interior is adorned with exquisite wall paintings, intricate woodcarvings, and beautiful frescoes depicting Buddhist cosmology and deities. The main attraction is a seven-tiered wooden sculpture representing the celestial palace of Guru Rinpoche (Padmasambhava), crafted by the renowned artist Dungzin Rimpoche. The monastery also houses ancient silk paintings, religious masks used in sacred dances, and a collection of rare Buddhist texts, all set within beautifully designed prayer halls and meditation chambers."
     },
     "description": "Pemayangtse Monastery, meaning 'Perfect Sublime Lotus,' is one of the oldest and most important monasteries in Sikkim, perched at an",
-    "image": [ 
-        "/places/pemayangtse_monastery/pemayangtse_monastery_1.webp", 
-        "/places/pemayangtse_monastery/pemayangtse_monastery_2.webp", 
-        "/places/pemayangtse_monastery/pemayangtse_monastery_3.webp", 
-        "/places/pemayangtse_monastery/pemayangtse_monastery_4.webp" 
+    "image": [
+      "/places/pemayangtse_monastery/pemayangtse_monastery_1.webp",
+      "/places/pemayangtse_monastery/pemayangtse_monastery_2.webp",
+      "/places/pemayangtse_monastery/pemayangtse_monastery_3.webp",
+      "/places/pemayangtse_monastery/pemayangtse_monastery_4.webp"
     ],
     "panoromic": [],
     "models": []
@@ -62,6 +68,8 @@
     "name": "Tashiding Monastery",
     "type": "monastery",
     "location": "West Sikkim, Tashiding",
+    "latitude": 27.3308,
+    "longitude": 88.2831,
     "content": {
       "overview": "Tashiding Monastery, perched on a hilltop between the Rathong and Rangeet rivers, is considered one of the most sacred monasteries in Sikkim. The name 'Tashiding' means 'Devoted Central Glory' and the monastery holds immense religious significance for Buddhists. Built at an elevation that offers panoramic views of the surrounding valleys and mountains, it is famous for the annual Bhumchu festival where sacred water is blessed and distributed to devotees. The monastery is believed to have the power to cleanse sins and is visited by pilgrims from across the region. Its strategic location and spiritual importance make it a must-visit destination for those seeking both religious solace and natural beauty.",
       "history": "Tashiding Monastery was founded in 1641 by Ngadak Sempa Chempo, making it one of the oldest monasteries in Sikkim belonging to the Nyingma sect. According to legend, Guru Padmasambhava blessed this site and prophesied that a monastery built here would have special spiritual powers. The monastery gained prominence during the rule of the Chogyals and became a center of religious activities. It has survived various political changes and natural calamities while maintaining its religious traditions. The annual Bhumchu ceremony, where sacred water from pots sealed years ago is opened to predict the coming year's events, has been conducted here for centuries, making it a significant pilgrimage site.",
@@ -69,9 +77,9 @@
     },
     "description": "Tashiding Monastery, perched on a hilltop between the Rathong and Rangeet rivers, is considered one of the most sacred monasteries",
     "image": [
-         "/places/tashiding_monastery/tashiding_monastery_1.webp",
-         "/places/tashiding_monastery/tashiding_monastery_2.webp",
-         "/places/tashiding_monastery/tashiding_monastery_3.webp"
+      "/places/tashiding_monastery/tashiding_monastery_1.webp",
+      "/places/tashiding_monastery/tashiding_monastery_2.webp",
+      "/places/tashiding_monastery/tashiding_monastery_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -81,6 +89,8 @@
     "name": "Dubdi Monastery",
     "type": "monastery",
     "location": "West Sikkim, Yuksom",
+    "latitude": 27.3753,
+    "longitude": 88.2255,
     "content": {
       "overview": "Dubdi Monastery, also known as Hermit's Cell, holds the distinction of being the oldest monastery in Sikkim, founded in 1701. Located on a hilltop above Yuksom in West Sikkim, this small but historically significant monastery was established by Lhatsun Chenpo, one of the three Lamas who consecrated the first Chogyal of Sikkim. The monastery offers breathtaking views of the surrounding mountains and valleys, including glimpses of Mount Kanchenjunga. Despite its modest size compared to other monasteries, Dubdi holds immense spiritual significance and represents the beginning of Buddhism's formal establishment in Sikkim. The peaceful environment and historical importance make it a revered pilgrimage site.",
       "history": "Dubdi Monastery was established in 1701 by Lhatsun Chenpo, one of the three revered Lamas who played a crucial role in establishing Buddhism in Sikkim and crowning the first Chogyal. The monastery was built as a meditation retreat and spiritual center, serving as the foundation for the spread of Nyingma Buddhism throughout Sikkim. It predates most other monasteries in the state and represents the earliest formal Buddhist establishment in the region. Over the centuries, it has maintained its role as a place of meditation and spiritual practice, preserving ancient traditions and serving as a symbol of Sikkim's Buddhist heritage. The monastery has witnessed the transformation of Sikkim from a Buddhist kingdom to its current status while maintaining its spiritual significance.",
@@ -88,9 +98,9 @@
     },
     "description": "Dubdi Monastery, also known as Hermit's Cell, holds the distinction of being the oldest monastery in Sikkim, founded in 1701.",
     "image": [
-        "/places/dubdi_monastery/dubdi_monastery_1.webp",
-        "/places/dubdi_monastery/dubdi_monastery_2.webp",
-        "/places/dubdi_monastery/dubdi_monastery_3.webp"
+      "/places/dubdi_monastery/dubdi_monastery_1.webp",
+      "/places/dubdi_monastery/dubdi_monastery_2.webp",
+      "/places/dubdi_monastery/dubdi_monastery_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -100,6 +110,8 @@
     "name": "Sanga Choeling Monastery",
     "type": "monastery",
     "location": "West Sikkim, Pelling",
+    "latitude": 27.3168,
+    "longitude": 88.2431,
     "content": {
       "overview": "Sanga Choeling Monastery, perched at an altitude of 7,200 feet, is the second oldest monastery in Sikkim and offers spectacular views of the Kanchenjunga range. Founded in 1697, this monastery belongs to the Nyingma sect and is renowned for its ancient murals, statues, and religious artifacts. The monastery is accessible via a steep trek through rhododendron forests, making the journey itself a spiritual experience. The name 'Sanga Choeling' means 'Island of Esoteric Teaching,' reflecting its role as a center for advanced Buddhist studies. Despite its remote location, the monastery attracts numerous visitors and pilgrims who come to experience its serene atmosphere and witness its well-preserved ancient art and architecture.",
       "history": "Sanga Choeling Monastery was established in 1697 by Lama Lhatsun Chempo, making it the second oldest monastery in Sikkim after Dubdi. The monastery was built as an advanced center for esoteric Buddhist teachings and practices of the Nyingma tradition. Throughout its history, it has served as an important seat of learning where monks studied complex Buddhist philosophy and meditation techniques. The monastery has survived various political upheavals and natural disasters while maintaining its religious traditions. During the British colonial period and later during Sikkim's merger with India, the monastery continued to preserve ancient Buddhist texts and practices. Today, it stands as a testament to the enduring nature of Buddhist tradition in Sikkim.",
@@ -107,9 +119,9 @@
     },
     "description": "Sanga Choeling Monastery, perched at an altitude of 7,200 feet, is the second oldest monastery in Sikkim and offers spectacular",
     "image": [
-        "/places/sanga_choeling_monastery/sanga_choeling_monastery_1.webp",
-        "/places/sanga_choeling_monastery/sanga_choeling_monastery_2.webp",
-        "/places/sanga_choeling_monastery/sanga_choeling_monastery_3.webp"
+      "/places/sanga_choeling_monastery/sanga_choeling_monastery_1.webp",
+      "/places/sanga_choeling_monastery/sanga_choeling_monastery_2.webp",
+      "/places/sanga_choeling_monastery/sanga_choeling_monastery_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -119,6 +131,8 @@
     "name": "Lachung Monastery",
     "type": "monastery",
     "location": "North Sikkim, Lachung",
+    "latitude": 27.6917,
+    "longitude": 88.7419,
     "content": {
       "overview": "Lachung Monastery, situated in the picturesque village of Lachung in North Sikkim, is a beautiful example of Tibetan Buddhist architecture set against the backdrop of snow-capped mountains. This monastery serves the local community and visiting pilgrims with its peaceful environment and traditional religious practices. Located at a high altitude, it offers visitors a chance to experience authentic mountain monastery life while enjoying stunning views of the surrounding Himalayan landscape. The monastery is particularly significant for travelers heading to Yumthang Valley and other high-altitude destinations in North Sikkim, serving as both a spiritual stop and cultural insight into the region's Buddhist heritage.",
       "history": "Lachung Monastery was established to serve the spiritual needs of the local Bhutia community in the remote Lachung valley. Built according to traditional Tibetan Buddhist principles, the monastery has been a center of religious activity for the local population for many generations. It has played a crucial role in preserving Buddhist culture and traditions in this remote mountain region, maintaining religious practices that connect the local community to their spiritual heritage. The monastery has adapted to the challenging high-altitude environment while preserving ancient Buddhist traditions, serving as a cultural anchor for the community amid the changing times and increasing tourism in the region.",
@@ -126,9 +140,9 @@
     },
     "description": "Lachung Monastery, situated in the picturesque village of Lachung in North Sikkim, is a beautiful example of Tibetan Buddhist architecture",
     "image": [
-        "/places/lachung_monastery/lachung_monastery_1.webp",
-        "/places/lachung_monastery/lachung_monastery_2.webp",
-        "/places/lachung_monastery/lachung_monastery_3.webp"
+      "/places/lachung_monastery/lachung_monastery_1.webp",
+      "/places/lachung_monastery/lachung_monastery_2.webp",
+      "/places/lachung_monastery/lachung_monastery_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -138,6 +152,8 @@
     "name": "Enchey Monastery",
     "type": "monastery",
     "location": "East Sikkim, Gangtok",
+    "latitude": 27.3425,
+    "longitude": 88.6186,
     "content": {
       "overview": "Enchey Monastery, located on a hilltop in Gangtok, is one of the most important monasteries in the capital city of Sikkim. Belonging to the Nyingma sect of Tibetan Buddhism, this monastery is renowned for its annual Cham dance performances and beautiful location offering panoramic views of Gangtok city and the surrounding mountains. The monastery houses significant religious artifacts and serves as an active center of Buddhist worship and learning. Its proximity to the city center makes it easily accessible to tourists while maintaining its spiritual atmosphere. The monastery is particularly famous for its masked dance festival held annually, which attracts visitors from around the world to witness these sacred traditional performances.",
       "history": "Enchey Monastery was established in 1909 on a site blessed by Lama Druptob Karpo, a renowned tantric master who was believed to possess the power of flight. According to local legend, Lama Druptob Karpo flew to this hilltop location from Maenam hill in South Sikkim, and the monastery was built to commemorate this miraculous event. The monastery belongs to the Nyingma tradition and has served the spiritual needs of Gangtok's residents for over a century. It has played an important role in preserving Buddhist culture in the urban environment of Gangtok, maintaining traditional practices while adapting to the changing needs of a modern city. The monastery continues to be an active center of religious activity and community gathering.",
@@ -145,9 +161,9 @@
     },
     "description": "Enchey Monastery, located on a hilltop in Gangtok, is one of the most important monasteries in the capital city of",
     "image": [
-        "/places/enchey_monastery_gangtok/enchey_monastery_gangtok_1.webp",
-        "/places/enchey_monastery_gangtok/enchey_monastery_gangtok_2.webp",
-        "/places/enchey_monastery_gangtok/enchey_monastery_gangtok_3.webp"
+      "/places/enchey_monastery_gangtok/enchey_monastery_gangtok_1.webp",
+      "/places/enchey_monastery_gangtok/enchey_monastery_gangtok_2.webp",
+      "/places/enchey_monastery_gangtok/enchey_monastery_gangtok_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -157,6 +173,8 @@
     "name": "Samdruptse Monastery",
     "type": "monastery",
     "location": "South Sikkim, Namchi",
+    "latitude": 27.2458,
+    "longitude": 88.3758,
     "content": {
       "overview": "Samdruptse Monastery, located on a hilltop in Namchi, is famous for housing a magnificent 135-foot tall statue of Guru Padmasambhava (Guru Rinpoche), making it one of the tallest statues of the revered Buddhist master in the world. The monastery complex offers breathtaking 360-degree views of the surrounding mountains and valleys, including glimpses of the Kanchenjunga range. This relatively modern monastery has quickly become a major pilgrimage site and tourist attraction, combining traditional Buddhist architecture with contemporary construction techniques. The site serves as both a place of worship and meditation, attracting thousands of visitors annually who come to seek blessings and experience the spiritual energy of this sacred place.",
       "history": "Samdruptse Monastery is a relatively recent addition to Sikkim's religious landscape, constructed in the early 21st century as part of efforts to promote spiritual tourism and preserve Buddhist culture. The monastery was built around the massive statue of Guru Padmasambhava, which was consecrated with great ceremony and blessed by high-ranking Buddhist lamas. The site was chosen for its spiritual significance and commanding views, following traditional principles of monastery placement in Tibetan Buddhism. Despite its recent origin, the monastery has quickly gained recognition as an important pilgrimage site, attracting devotees from across the Buddhist world. The project represents modern efforts to create new centers of Buddhist learning and practice while respecting ancient traditions and architectural principles.",
@@ -164,9 +182,9 @@
     },
     "description": "Samdruptse Monastery, located on a hilltop in Namchi, is famous for housing a magnificent 135-foot tall statue of Guru Padmasambhava",
     "image": [
-        "/places/samdruptse_monastery_namchi/samdruptse_monastery_namchi_1.webp",
-        "/places/samdruptse_monastery_namchi/samdruptse_monastery_namchi_2.webp",
-        "/places/samdruptse_monastery_namchi/samdruptse_monastery_namchi_3.webp"
+      "/places/samdruptse_monastery_namchi/samdruptse_monastery_namchi_1.webp",
+      "/places/samdruptse_monastery_namchi/samdruptse_monastery_namchi_2.webp",
+      "/places/samdruptse_monastery_namchi/samdruptse_monastery_namchi_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -176,6 +194,8 @@
     "name": "Ngadak Monastery",
     "type": "monastery",
     "location": "South Sikkim, Namchi area",
+    "latitude": 27.2274,
+    "longitude": 88.3639,
     "content": {
       "overview": "Ngadak Monastery, situated in the Namchi area of South Sikkim, is a peaceful religious complex that serves the local Buddhist community and visiting pilgrims. The monastery is known for its serene environment and traditional religious practices, offering visitors a chance to experience authentic Buddhist monastery life away from the more touristy locations. Set amidst beautiful natural surroundings, the monastery provides a tranquil setting for meditation and spiritual reflection. The complex maintains traditional Buddhist architectural features while serving as an active center of religious learning and community activities. Its location in the Namchi region makes it part of the area's growing reputation as a center of spiritual tourism in South Sikkim.",
       "history": "Ngadak Monastery has its roots in the traditional Buddhist culture of South Sikkim, established to serve the spiritual needs of the local community in the Namchi area. The monastery has maintained its role as a center of Buddhist learning and practice, preserving traditional teachings and rituals that have been passed down through generations. It has contributed to the preservation of Buddhist culture in the region while adapting to changing times and the growing interest in spiritual tourism. The monastery has played an important role in maintaining the religious and cultural identity of the local Buddhist community, serving as a gathering place for religious ceremonies, festivals, and community events.",
@@ -183,9 +203,9 @@
     },
     "description": "Ngadak Monastery, situated in the Namchi area of South Sikkim, is a peaceful religious complex that serves the local Buddhist",
     "image": [
-        "/places/ngadak_monastery_namchi_area/ngadak_monastery_namchi_area_1.webp",
-        "/places/ngadak_monastery_namchi_area/ngadak_monastery_namchi_area_2.webp",
-        "/places/ngadak_monastery_namchi_area/ngadak_monastery_namchi_area_3.webp"
+      "/places/ngadak_monastery_namchi_area/ngadak_monastery_namchi_area_1.webp",
+      "/places/ngadak_monastery_namchi_area/ngadak_monastery_namchi_area_2.webp",
+      "/places/ngadak_monastery_namchi_area/ngadak_monastery_namchi_area_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -195,6 +215,8 @@
     "name": "Lingdum Monastery",
     "type": "monastery",
     "location": "East Sikkim, near Ranka",
+    "latitude": 27.3528,
+    "longitude": 88.5866,
     "content": {
       "overview": "Lingdum Monastery, also known as Pal Zurmang Kagyud Monastery, is a relatively modern but architecturally stunning monastery located near Ranka in East Sikkim. Built in traditional Tibetan style, the monastery is renowned for its beautiful location offering panoramic views of the Gangtok valley and surrounding mountains. The monastery serves as a center for the Zurmang Kagyu tradition of Tibetan Buddhism and houses a community of monks dedicated to preserving and practicing ancient Buddhist teachings. The complex is known for its peaceful atmosphere, beautiful gardens, and well-maintained facilities that make it popular among both pilgrims and tourists seeking spiritual solace and architectural beauty.",
       "history": "Lingdum Monastery was established in the late 20th century by the 12th Zurmang Gharwang Rinpoche as a center for the Zurmang Kagyu lineage of Tibetan Buddhism. The monastery represents efforts to establish new centers of Buddhist learning and practice outside of Tibet, following the diaspora of Tibetan Buddhist teachers. Built according to traditional principles but using modern construction techniques, the monastery has quickly gained recognition as an important center of Buddhist practice in Sikkim. It has served as a bridge between traditional Tibetan Buddhism and contemporary needs, offering traditional teachings while accommodating modern visitors and practitioners. The monastery has contributed to the preservation and dissemination of Zurmang Kagyu teachings in the region.",
@@ -202,10 +224,10 @@
     },
     "description": "Lingdum Monastery, also known as Pal Zurmang Kagyud Monastery, is a relatively modern but architecturally stunning monastery located near Ranka",
     "image": [
-        "/places/lingdum_monastery/lingdum_monastery_1.webp",
-        "/places/lingdum_monastery/lingdum_monastery_2.webp",
-        "/places/lingdum_monastery/lingdum_monastery_3.webp",
-        "/places/lingdum_monastery/lingdum_monastery_4.webp"
+      "/places/lingdum_monastery/lingdum_monastery_1.webp",
+      "/places/lingdum_monastery/lingdum_monastery_2.webp",
+      "/places/lingdum_monastery/lingdum_monastery_3.webp",
+      "/places/lingdum_monastery/lingdum_monastery_4.webp"
     ],
     "panoromic": [],
     "models": []
@@ -215,6 +237,8 @@
     "name": "Tsomgo Lake (Changu Lake)",
     "type": "place",
     "location": "East Sikkim, 40km from Gangtok",
+    "latitude": 27.3745,
+    "longitude": 88.7618,
     "content": {
       "overview": "Tsomgo Lake, also known as Changu Lake, is a pristine glacial lake situated at an elevation of 3,753 meters in East Sikkim, approximately 40 kilometers from Gangtok. This oval-shaped lake remains frozen during winter months and transforms into a spectacular mirror reflecting the surrounding snow-capped peaks during warmer seasons. The lake is considered sacred by local Buddhists, and Buddhist monks traditionally studied the changing colors of its waters to make predictions. Surrounded by steep mountains and alpine vegetation, Tsomgo Lake offers visitors a breathtaking high-altitude experience. The lake is accessible via a scenic mountain road that winds through beautiful landscapes, making the journey as memorable as the destination itself.",
       "history": "Tsomgo Lake has been revered by the local Sikkimese people for centuries as a sacred body of water with mystical properties. Buddhist monks historically visited the lake to study its changing colors, believing these variations could foretell future events and guide important decisions. The lake played a significant role in local folklore and religious traditions, with various legends associated with its formation and spiritual significance. During the British colonial period, the lake remained relatively unknown to outsiders due to its remote location and challenging access. After Sikkim's merger with India and the development of road infrastructure, Tsomgo Lake gradually became accessible to tourists while maintaining its sacred status among local communities.",
@@ -222,9 +246,9 @@
     },
     "description": "Tsomgo Lake, also known as Changu Lake, is a pristine glacial lake situated at an elevation of 3,753 meters in",
     "image": [
-        "/places/tsomgo_lake_changu_lake/tsomgo_lake__changu_lake_1.webp",
-        "/places/tsomgo_lake_changu_lake/tsomgo_lake__changu_lake_2.webp",
-        "/places/tsomgo_lake_changu_lake/tsomgo_lake__changu_lake_3.webp"
+      "/places/tsomgo_lake_changu_lake/tsomgo_lake__changu_lake_1.webp",
+      "/places/tsomgo_lake_changu_lake/tsomgo_lake__changu_lake_2.webp",
+      "/places/tsomgo_lake_changu_lake/tsomgo_lake__changu_lake_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -234,6 +258,8 @@
     "name": "Yumthang Valley",
     "type": "place",
     "location": "North Sikkim, Lachung area",
+    "latitude": 27.8267,
+    "longitude": 88.6958,
     "content": {
       "overview": "Yumthang Valley, often called the 'Valley of Flowers,' is a breathtaking high-altitude valley located in North Sikkim at an elevation of 3,564 meters. Famous for its spectacular display of alpine flowers, particularly rhododendrons, primulas, and other Himalayan flora that bloom during spring and summer months, the valley transforms into a colorful carpet of blossoms against the backdrop of snow-capped peaks. The valley is also known for its hot springs, which are believed to have therapeutic properties. Yumthang serves as a base for trekking expeditions to higher altitudes and offers visitors an opportunity to experience pristine Himalayan wilderness, unique high-altitude ecosystems, and traditional Bhutia culture of the region.",
       "history": "Yumthang Valley has been traditionally used by local Bhutia communities as summer grazing grounds for their yaks and other livestock, taking advantage of the rich alpine pastures that flourish during the brief summer months. The valley's name 'Yumthang' means 'turquoise meadow' in the local language, reflecting its natural beauty and the color of its pristine streams. For centuries, the valley remained accessible only to local herders and occasional traders crossing into Tibet. The construction of roads in the latter half of the 20th century opened the valley to tourists, but it has maintained its pristine character due to its remote location and challenging access. The valley has gained recognition as one of India's most beautiful high-altitude destinations while preserving its ecological integrity and cultural significance.",
@@ -241,9 +267,9 @@
     },
     "description": "Yumthang Valley, often called the 'Valley of Flowers,' is a breathtaking high-altitude valley located in North Sikkim at an elevation",
     "image": [
-        "/places/yumthang_valley/yumthang_valley_1.webp",
-        "/places/yumthang_valley/yumthang_valley_2.webp",
-        "/places/yumthang_valley/yumthang_valley_3.webp"
+      "/places/yumthang_valley/yumthang_valley_1.webp",
+      "/places/yumthang_valley/yumthang_valley_2.webp",
+      "/places/yumthang_valley/yumthang_valley_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -253,6 +279,8 @@
     "name": "Zero Point (Yume Samdong)",
     "type": "place",
     "location": "North Sikkim, near Yumthang Valley",
+    "latitude": 27.9691,
+    "longitude": 88.7073,
     "content": {
       "overview": "Zero Point, also known as Yume Samdong, is a pristine high-altitude destination located at 15,300 feet above sea level in North Sikkim. Situated 26 kilometers beyond the famous Yumthang Valley, this spectacular location marks the end of the civilian road and the beginning of the restricted border area near China. The name 'Zero Point' signifies the last point accessible to tourists, while 'Yume Samdong' translates to 'meeting point of three roads.' This snow-clad wonderland offers breathtaking views of towering peaks, glacial landscapes, and untouched natural beauty. The journey to Zero Point is an adventure in itself, requiring special permits and government-registered vehicles. The region remains covered in snow for most of the year, creating a magical winter wonderland that attracts thousands of visitors seeking to experience the raw beauty of the Himalayas.",
       "history": "Zero Point holds significant historical importance as it lies along ancient trade routes that connected Tibet with the Indian plains. The region has been traversed by traders, pilgrims, and explorers for centuries, serving as a crucial passage through the Himalayas. During the British colonial period, this area was part of the strategic frontier regions that were closely monitored due to their proximity to Tibet and China. The modern tourism development began in the late 20th century when the Indian government started allowing regulated tourism to this sensitive border area. The establishment of proper road connectivity and the implementation of the permit system helped transform this remote location into a major tourist destination. The area gained prominence as adventure tourism grew in Sikkim, with Zero Point becoming the ultimate destination for high-altitude enthusiasts. Today, it represents the perfect blend of natural wonder and strategic importance, carefully managed to preserve its pristine environment while allowing visitors to experience its magnificence.",
@@ -260,9 +288,9 @@
     },
     "description": "Zero Point, also known as Yume Samdong, is a pristine high-altitude destination located at 15,300 feet above sea level in",
     "image": [
-        "/places/zero_point_near_yamthang/zero_point___near_yamthang_1.webp",
-        "/places/zero_point_near_yamthang/zero_point___near_yamthang_2.webp",
-        "/places/zero_point_near_yamthang/zero_point___near_yamthang_3.webp"
+      "/places/zero_point_near_yamthang/zero_point___near_yamthang_1.webp",
+      "/places/zero_point_near_yamthang/zero_point___near_yamthang_2.webp",
+      "/places/zero_point_near_yamthang/zero_point___near_yamthang_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -272,6 +300,8 @@
     "name": "Gurudongmar Lake",
     "type": "place",
     "location": "North Sikkim, Mangan District",
+    "latitude": 28.0257,
+    "longitude": 88.7097,
     "content": {
       "overview": "Gurudongmar Lake, situated at an elevation of 17,800 feet, is one of the highest lakes in the world and holds immense religious significance for Buddhists, Sikhs, and Hindus alike. Located 190 kilometers from Gangtok, this sacred glacial lake is named after Guru Padmasambhava (Guru Rinpoche), the founder of Tibetan Buddhism who visited this region in the 8th century. The lake serves as the source of the mighty Teesta River and remains partially frozen throughout the year due to its extreme altitude. The pristine waters reflect the surrounding snow-capped peaks, creating a mirror-like surface that captures the ethereal beauty of the Himalayas. Due to its sacred nature, the lake is believed to possess healing properties, and devotees from across the region undertake arduous journeys to seek blessings. The challenging terrain and extreme weather conditions make access possible only during specific months, adding to its mystique and reverence as one of Sikkim's most sacred natural wonders.",
       "history": "The history of Gurudongmar Lake is deeply intertwined with Tibetan Buddhism and dates back to the 8th century when Guru Padmasambhava, also known as Guru Rinpoche, visited this region during his journey to Tibet. Legend states that local people requested the Guru to bless the lake as it would freeze completely, depriving them of water. Guru Rinpoche touched the lake with his hands, blessing it so that one part would never freeze, ensuring a continuous water supply for the local population. This blessed portion remains unfrozen even in the harshest winter conditions, which locals and pilgrims consider a miracle. The lake gradually gained prominence as a pilgrimage site, with devotees believing that its waters possess healing properties. During the medieval period, it became an important stopover for traders and pilgrims traveling between Tibet and India. In modern times, the lake was opened to regulated tourism, with the Indian Army maintaining facilities and ensuring the safety of visitors in this sensitive border region near China.",
@@ -279,9 +309,9 @@
     },
     "description": "Gurudongmar Lake, situated at an elevation of 17,800 feet, is one of the highest lakes in the world and holds",
     "image": [
-        "/places/gurudongmar_lake/gurudongmar_lake_1.webp",
-        "/places/gurudongmar_lake/gurudongmar_lake_2.webp",
-        "/places/gurudongmar_lake/gurudongmar_lake_3.avif"
+      "/places/gurudongmar_lake/gurudongmar_lake_1.webp",
+      "/places/gurudongmar_lake/gurudongmar_lake_2.webp",
+      "/places/gurudongmar_lake/gurudongmar_lake_3.avif"
     ],
     "panoromic": [],
     "models": []
@@ -291,6 +321,8 @@
     "name": "Singshore Bridge, Pelling",
     "type": "place",
     "location": "West Sikkim, Pelling",
+    "latitude": 27.2796,
+    "longitude": 88.2193,
     "content": {
       "overview": "The Singshore Bridge in Pelling is the highest suspension bridge in Sikkim and the second-highest railway bridge in Asia, spanning 240 meters across a deep gorge at a height of 198 meters above the valley floor. This engineering marvel connects Dentam and Singshore, offering breathtaking views of the surrounding mountains and valleys. Built primarily for the railway line connecting New Jalpaiguri to Geyzing, the bridge has become a major tourist attraction due to its spectacular location and thrilling experience. Visitors can walk across the bridge while enjoying panoramic views of the Kanchenjunga range, traditional villages, and lush green forests. The bridge provides an adrenaline-pumping experience as it sways gently in the mountain winds, making it popular among adventure enthusiasts and photographers. The surrounding area offers several viewpoints and hiking trails, making it an ideal destination for nature lovers and those seeking spectacular mountain vistas. The bridge represents a perfect blend of modern engineering achievement and natural beauty in the heart of the Himalayas.",
       "history": "The Singshore Bridge was constructed as part of the ambitious mountain railway project aimed at improving connectivity in the hill regions of Sikkim. Planning for the bridge began in the early 2000s as part of the broader infrastructure development initiative to connect remote areas of Sikkim with the mainland. Construction commenced in 2003 and was completed in 2008 after overcoming significant engineering challenges posed by the difficult terrain and extreme weather conditions. The bridge was built using advanced suspension bridge technology, requiring specialized equipment and expertise to construct at such a high altitude and challenging location. The project involved extensive geological surveys and environmental impact assessments to ensure minimal disruption to the local ecosystem. Local communities were involved in the construction process, providing labor and logistical support while benefiting from the employment opportunities. Since its completion, the bridge has not only served its primary purpose of railway connectivity but has also emerged as a major tourist attraction, contributing significantly to the local economy through tourism revenue.",
@@ -298,9 +330,9 @@
     },
     "description": "The Singshore Bridge in Pelling is the highest suspension bridge in Sikkim and the second-highest railway bridge in Asia, spanning",
     "image": [
-        "/places/singshore_bridge_pelling/singshore_bridge__pelling_1.avif",
-        "/places/singshore_bridge_pelling/singshore_bridge__pelling_2.webp",
-        "/places/singshore_bridge_pelling/singshore_bridge__pelling_3.webp"
+      "/places/singshore_bridge_pelling/singshore_bridge__pelling_1.avif",
+      "/places/singshore_bridge_pelling/singshore_bridge__pelling_2.webp",
+      "/places/singshore_bridge_pelling/singshore_bridge__pelling_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -310,6 +342,8 @@
     "name": "Chenrezig Statue & Skywalk, Pelling",
     "type": "place",
     "location": "West Sikkim, Pelling",
+    "latitude": 27.3182,
+    "longitude": 88.2409,
     "content": {
       "overview": "The Chenrezig Statue and Skywalk in Pelling is one of Sikkim's newest and most spectacular attractions, featuring a magnificent 137-foot statue of Chenrezig (Avalokiteshvara), the Buddhist deity of compassion. Inaugurated in 2018, this towering statue stands as the tallest Chenrezig statue in the world, positioned strategically to offer commanding views of the Kanchenjunga range and surrounding valleys. The accompanying skywalk provides visitors with a thrilling elevated walkway that extends into the valley, offering unparalleled 360-degree views of the Himalayan landscape. Located at Sangachoeling, the site combines spiritual significance with modern engineering to create a unique tourist experience. The statue, crafted with intricate details and traditional iconography, serves as a center for Buddhist devotion while the skywalk caters to adventure tourism. The entire complex includes meditation areas, gift shops, and viewing platforms that make it a comprehensive destination for both spiritual seekers and tourists seeking spectacular mountain views.",
       "history": "The Chenrezig Statue project was conceived as part of Sikkim's ambitious plan to develop major Buddhist tourist attractions and promote the state's rich Buddhist heritage. The initiative was launched in 2010 with the vision of creating a world-class religious monument that would serve both spiritual and tourism purposes. Construction began in 2013 and involved extensive planning, including consultations with Buddhist scholars to ensure authentic representation of Chenrezig iconography. The project faced several challenges, including difficult terrain, weather conditions, and the need to transport heavy materials to the mountain site. Local artisans and craftspeople worked alongside engineers and architects to create the intricate details of the statue, which required specialized techniques in concrete sculpting and finishing. The skywalk was added to the project in 2016 to enhance the visitor experience and provide unique viewing opportunities. The entire complex was blessed by senior Buddhist lamas before its inauguration in 2018, which was attended by thousands of devotees and dignitaries. Since its opening, the site has become one of Sikkim's most popular tourist destinations, significantly boosting the local economy and establishing Pelling as a major Buddhist pilgrimage center.",
@@ -317,10 +351,10 @@
     },
     "description": "The Chenrezig Statue and Skywalk in Pelling is one of Sikkim's newest and most spectacular attractions, featuring a magnificent 137-foot",
     "image": [
-        "/places/chenrezig_statue_skywalk_pelling/chenrezig_statue_skywalk_pelling_1.webp",
-        "/places/chenrezig_statue_skywalk_pelling/chenrezig_statue_skywalk_pelling_2.webp",
-        "/places/chenrezig_statue_skywalk_pelling/chenrezig_statue_skywalk_pelling_3.webp",
-        "/places/chenrezig_statue_skywalk_pelling/chenrezig_statue_skywalk_pelling_4.webp"
+      "/places/chenrezig_statue_skywalk_pelling/chenrezig_statue_skywalk_pelling_1.webp",
+      "/places/chenrezig_statue_skywalk_pelling/chenrezig_statue_skywalk_pelling_2.webp",
+      "/places/chenrezig_statue_skywalk_pelling/chenrezig_statue_skywalk_pelling_3.webp",
+      "/places/chenrezig_statue_skywalk_pelling/chenrezig_statue_skywalk_pelling_4.webp"
     ],
     "panoromic": [],
     "models": []
@@ -330,6 +364,8 @@
     "name": "Shingba Rhododendron Sanctuary",
     "type": "place",
     "location": "North Sikkim, Yumthang Valley",
+    "latitude": 27.7667,
+    "longitude": 88.7000,
     "content": {
       "overview": "Shingba Rhododendron Sanctuary, established in 1984, is a spectacular protected area covering 43 square kilometers in North Sikkim, renowned for housing the largest variety of rhododendrons in India. Located along the route to Yumthang Valley, this sanctuary is home to over 40 species of rhododendrons, ranging from tiny alpine shrubs to large tree rhododendrons that bloom in magnificent displays of red, pink, white, and purple during spring and early summer. The sanctuary extends from 3,000 to 5,000 meters in elevation, encompassing diverse ecological zones from temperate forests to alpine meadows. Beyond rhododendrons, the sanctuary supports a rich variety of flora including primulas, poppies, and medicinal plants, along with wildlife such as red pandas, musk deer, and numerous bird species. The best time to visit is during the blooming season from April to June when the entire valley transforms into a colorful carpet of flowers. The sanctuary serves as a living laboratory for botanical research and offers visitors an unparalleled opportunity to witness one of nature's most spectacular floral displays in the Himalayan region.",
       "history": "The Shingba Rhododendron Sanctuary was established in 1984 following extensive botanical surveys that revealed the extraordinary diversity of rhododendron species in the Yumthang Valley region. The area had been known to local communities and botanists for its exceptional floral wealth, but formal protection became necessary due to increasing collection pressure and potential habitat degradation. The sanctuary was named 'Shingba,' which means 'wood of the lions' in the local Lepcha language, reflecting the traditional reverence for this forested area. Early scientific expeditions in the 1960s and 1970s documented the remarkable concentration of rhododendron species, many of which were found to be endemic to this region. The establishment process involved detailed ecological mapping and consultation with local communities who had traditionally used the area for collecting medicinal plants and grazing livestock. International botanical interest in the sanctuary grew significantly after its establishment, leading to numerous research collaborations and conservation programs. The sanctuary has since become a crucial site for rhododendron conservation globally, with seed collection programs helping to preserve genetic diversity and support cultivation efforts worldwide.",
@@ -337,9 +373,9 @@
     },
     "description": "Shingba Rhododendron Sanctuary, established in 1984, is a spectacular protected area covering 43 square kilometers in North Sikkim, renowned for",
     "image": [
-        "/places/shingba_rhododendron_sanctuary/shingba_rhododendron_sanctuary_1.webp",
-        "/places/shingba_rhododendron_sanctuary/shingba_rhododendron_sanctuary_2.webp",
-        "/places/shingba_rhododendron_sanctuary/shingba_rhododendron_sanctuary_3.webp"
+      "/places/shingba_rhododendron_sanctuary/shingba_rhododendron_sanctuary_1.webp",
+      "/places/shingba_rhododendron_sanctuary/shingba_rhododendron_sanctuary_2.webp",
+      "/places/shingba_rhododendron_sanctuary/shingba_rhododendron_sanctuary_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -349,6 +385,8 @@
     "name": "Rabdentse Ruins",
     "type": "place",
     "location": "West Sikkim, Pelling",
+    "latitude": 27.3142,
+    "longitude": 88.2618,
     "content": {
       "overview": "The Rabdentse Ruins represent the archaeological remains of the ancient capital of the Kingdom of Sikkim from 1670 to 1814, located on a ridge near Pelling in West Sikkim. This historically significant site offers visitors a glimpse into Sikkim's royal past through the remnants of palaces, chortens (stupas), and other structures that once formed the political and cultural center of the kingdom. The ruins are surrounded by lush forests and offer spectacular views of the Kanchenjunga range, making it a destination that combines historical interest with natural beauty. The site includes the ruins of the royal palace complex, meditation caves, and religious structures, all constructed using traditional Himalayan architectural techniques. A Archaeological Survey of India has declared it a protected monument, and ongoing conservation efforts aim to preserve these important cultural remains. The ruins are accessible via a pleasant trek through rhododendron forests, making the journey itself part of the experience. The site holds deep spiritual significance for the people of Sikkim and serves as an important link to their royal heritage and Buddhist traditions.",
       "history": "Rabdentse was established as the second capital of Sikkim in 1670 by the third Chogyal (king) Chador Namgyal, after the first capital at Yuksom became vulnerable to Bhutanese invasions. The city served as the seat of Sikkim's monarchy for 144 years, witnessing the reigns of several Chogyals who shaped the kingdom's political and cultural development. During its heyday, Rabdentse was a thriving political center with elaborate palaces, administrative buildings, and religious structures that reflected the power and culture of the Namgyal dynasty. The capital faced multiple invasions, particularly from the Bhutanese and later the Nepalese Gurkhas, which gradually weakened its strategic importance. The final blow came in 1814 when Nepalese forces invaded and destroyed much of the city, forcing the royal court to abandon Rabdentse and relocate to Tumlong. After the abandonment, the structures gradually fell into ruin due to natural decay and earthquake damage, leaving behind the evocative remains we see today. The site was rediscovered by historians and archaeologists in the 20th century, leading to its recognition as a protected monument and important heritage site representing Sikkim's rich royal history.",
@@ -356,9 +394,9 @@
     },
     "description": "The Rabdentse Ruins represent the archaeological remains of the ancient capital of the Kingdom of Sikkim from 1670 to 1814,",
     "image": [
-        "/places/rabdentse_ruins/rabdentse_ruins_1.avif",
-        "/places/rabdentse_ruins/rabdentse_ruins_2.webp",
-        "/places/rabdentse_ruins/rabdentse_ruins_3.webp"
+      "/places/rabdentse_ruins/rabdentse_ruins_1.avif",
+      "/places/rabdentse_ruins/rabdentse_ruins_2.webp",
+      "/places/rabdentse_ruins/rabdentse_ruins_3.webp"
     ],
     "panoromic": [],
     "models": []
@@ -368,6 +406,8 @@
     "name": "Namchi",
     "type": "place",
     "location": "South Sikkim, Namchi District",
+    "latitude": 27.2252,
+    "longitude": 88.3512,
     "content": {
       "overview": "Namchi, meaning 'top of the sky' in the Bhutia language, is the district headquarters of South Sikkim and a rapidly emerging tourist destination known for its religious monuments, cultural sites, and panoramic mountain views. Situated at an elevation of 5,500 feet, Namchi offers spectacular views of the Kanchenjunga range and the surrounding valleys. The town is famous for the Samdruptse Hill, which features a massive 135-foot statue of Guru Padmasambhava (Guru Rinpoche), and the Solophok Char Dham, a unique pilgrimage complex that replicates India's four sacred Char Dham sites. Namchi serves as an important cultural and administrative center, hosting the annual Namchi Mahotsav, a vibrant festival celebrating local culture, music, and traditions. The town's strategic location makes it an ideal base for exploring nearby attractions including monasteries, tea gardens, and trekking routes. The pleasant climate throughout the year, combined with its spiritual significance and natural beauty, makes Namchi an increasingly popular destination for both pilgrims and tourists seeking a peaceful mountain retreat.",
       "history": "Namchi's history as a settlement dates back several centuries, with the area originally inhabited by Lepcha communities who considered the region sacred due to its elevated position and commanding views. The town gained prominence during the British colonial period as an administrative outpost and trading center connecting the plains with the higher mountain regions. After Sikkim's integration with India in 1975, Namchi was designated as the district headquarters of newly formed South Sikkim district, leading to significant development and population growth. The modern transformation of Namchi began in the 1990s with the state government's decision to develop it as a major tourist destination focusing on religious and cultural tourism. The construction of the Guru Padmasambhava statue on Samdruptse Hill, completed in 2004, marked the beginning of Namchi's emergence as a pilgrimage center. The subsequent development of Solophok Char Dham in 2011 further established Namchi's reputation as a unique destination where visitors could experience replicas of India's most sacred pilgrimage sites in a single location. Today, Namchi represents a successful example of planned tourism development that has preserved local culture while creating economic opportunities for the community.",
@@ -375,9 +415,9 @@
     },
     "description": "Namchi, meaning 'top of the sky' in the Bhutia language, is the district headquarters of South Sikkim and a rapidly",
     "image": [
-        "/places/namchi/namchi_1.webp",
-        "/places/namchi/namchi_2.webp",
-        "/places/namchi/namchi_3.webp"
+      "/places/namchi/namchi_1.webp",
+      "/places/namchi/namchi_2.webp",
+      "/places/namchi/namchi_3.webp"
     ],
     "panoromic": [],
     "models": []
