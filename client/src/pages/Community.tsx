@@ -8,6 +8,81 @@ import styles from "./Calender.module.css";
 
 type TSubPage = "home" | "calender" | "post";
 
+
+export const posts = [
+  {
+    image: "/places/buddha_park/buddha_park_1.jpg",
+    likes: 342,
+    caption: "Peaceful vibes at Buddha Park 🌸",
+    username: "Ananya S.",
+    place: "Buddha Park",
+  },
+  {
+    image: "/places/rumtek_monastery/rumtek_monastery_2.webp",
+    likes: 178,
+    caption: "Felt the calm energy of Rumtek Monastery 🙏",
+    username: "Raj Mehta",
+    place: "Rumtek Monastery",
+  },
+  {
+    image: "/places/pemayangtse_monastery/pemayangtse_monastery_1.webp",
+    likes: 289,
+    caption: "Historic charm at Pemayangtse Monastery ✨",
+    username: "Ishita D.",
+    place: "Pemayangtse Monastery",
+  },
+  {
+    image: "/places/yumthang_valley/yumthang_valley_3.webp",
+    likes: 523,
+    caption: "Colors of Yumthang Valley are unreal 💐",
+    username: "Neel R.",
+    place: "Yumthang Valley",
+  },
+  {
+    image: "/places/gurudongmar_lake/gurudongmar_lake_2.webp",
+    likes: 615,
+    caption: "Felt like heaven at Gurudongmar Lake ❄️",
+    username: "Tanya P.",
+    place: "Gurudongmar Lake",
+  },
+  {
+    image: "/places/tsomgo_lake_changu_lake/tsomgo_lake__changu_lake_1.webp",
+    likes: 301,
+    caption: "Mirror-like reflections at Tsomgo Lake 🏔️",
+    username: "Rohit Singh",
+    place: "Tsomgo Lake",
+  },
+  {
+    image: "/places/sanga_choeling_monastery/sanga_choeling_monastery_2.webp",
+    likes: 257,
+    caption: "Ancient beauty of Sanga Choeling Monastery",
+    username: "Priya N.",
+    place: "Sanga Choeling Monastery",
+  },
+  {
+    image: "/places/namchi/namchi_1.webp",
+    likes: 174,
+    caption: "Exploring the peaceful town of Namchi 🌿",
+    username: "Karan S.",
+    place: "Namchi",
+  },
+  {
+    image: "/places/shingba_rhododendron_sanctuary/shingba_rhododendron_sanctuary_1.webp",
+    likes: 194,
+    caption: "A walk through Shingba Rhododendron Sanctuary 🌸",
+    username: "Ritika Sharma",
+    place: "Shingba Rhododendron Sanctuary",
+  },
+  {
+    image: "/places/rabdentse_ruins/rabdentse_ruins_3.webp",
+    likes: 266,
+    caption: "History and nature blend at Rabdentse Ruins 🌿",
+    username: "Aarav M.",
+    place: "Rabdentse Ruins",
+  },
+];
+
+
 export default function Commmunity() {
   const [subpage, setSubpage] = useState<TSubPage>("home");
   const [value, setValue] = useState<string>("");
@@ -21,13 +96,7 @@ export default function Commmunity() {
 
         <div className='flex flex-col items-center justify-center pt-4'>
             <h1 className='text-4xl font-bold py-4'>Public Post</h1>
-            <PostCard image="https://www.esikkimtourism.in/wp-content/uploads/2019/04/topmarch.jpg" likes={128} caption="Enjoying a sunny day in Sikkim!" username="Mukesh K." place="Gangtok" />
-            <PostCard image="https://www.esikkimtourism.in/wp-content/uploads/2019/04/topmarch.jpg" likes={128} caption="Enjoying a sunny day in Sikkim!" username="Mukesh K." place="Gangtok" />
-            <PostCard image="https://www.esikkimtourism.in/wp-content/uploads/2019/04/topmarch.jpg" likes={128} caption="Enjoying a sunny day in Sikkim!" username="Mukesh K." place="Gangtok" />
-            <PostCard image="https://www.esikkimtourism.in/wp-content/uploads/2019/04/topmarch.jpg" likes={128} caption="Enjoying a sunny day in Sikkim!" username="Mukesh K." place="Gangtok" />
-            <PostCard image="https://www.esikkimtourism.in/wp-content/uploads/2019/04/topmarch.jpg" likes={128} caption="Enjoying a sunny day in Sikkim!" username="Mukesh K." place="Gangtok" />
-            <PostCard image="https://www.esikkimtourism.in/wp-content/uploads/2019/04/topmarch.jpg" likes={128} caption="Enjoying a sunny day in Sikkim!" username="Mukesh K." place="Gangtok" />
-            <PostCard image="https://www.esikkimtourism.in/wp-content/uploads/2019/04/topmarch.jpg" likes={128} caption="Enjoying a sunny day in Sikkim!" username="Mukesh K." place="Gangtok" />
+            {posts.map((val, ind) => <PostCard key={ind} image={val.image} likes={val.likes} caption={val.caption} username={val.username} place={val.place} />)}
         </div>
         </>)
         }

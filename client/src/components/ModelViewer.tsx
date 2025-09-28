@@ -3,6 +3,7 @@
 import { Suspense } from 'react';
 import { OrbitControls, Center, Environment, useGLTF } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
+import { useRouter } from "next/navigation";
 
 function Model() {
   const { scene } = useGLTF('/models/buddha.glb');
@@ -17,7 +18,11 @@ function Model() {
 useGLTF.preload('/models/buddha.glb');
 
 export function ModelViewer() {
+  const router = useRouter();
+
   return (
+    <>
+    <button onClick={() => router.push("/")} className='btn btn-primary absolute z-50 '>QUIT</button>
     <div className="h-full w-full">
       <Canvas camera={{ position: [0, 2, 8], fov: 50 }}>
         <ambientLight intensity={0.5} />
@@ -31,5 +36,6 @@ export function ModelViewer() {
         <OrbitControls enableZoom={true} />
       </Canvas>
     </div>
+    </>
   );
 }

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "elgin-nor-khill",
+    "name": "The Elgin Nor-Khill Heritage Resort & Spa",
+    "type": "heritage hotel / resort",
+    "location": "Gangtok, Sikkim",
+    "description": "A heritage resort in the heart of Gangtok, combining colonial charm and local hospitality.",
+    "image": [
+      "https://www.elginhotels.com/.../elgin-nor-khill-exterior.jpg",
+      "https://www.elginhotels.com/.../elgin-nor-khill-garden.jpg"
+    ]
+  },
+  {
+    "id": "mayfair-spa-resort",
+    "name": "Mayfair Spa Resort & Casino, Gangtok",
+    "type": "luxury resort / hotel",
+    "location": "Gangtok, Sikkim",
+    "description": "A sprawling forested resort near Gangtok with spa, casino and mountain views.",
+    "image": [
+      "https://www.mayfairhotels.com/.../resort-exterior-night.jpg",
+      "https://www.mayfairhotels.com/.../resort-garden-view.jpg"
+    ]
+  },
+  {
+    "id": "taj-guras-kutir",
+    "name": "Taj Guras Kutir Resort & Spa",
+    "type": "luxury resort / hotel",
+    "location": "Pangthang, near Gangtok, Sikkim",
+    "description": "A mountain-top resort by Taj, offering wellness, views and Sikkimese hospitality.",
+    "image": [
+      "https://www.tajhotels.com/.../guras-kutir-exterior.jpg",
+      "https://www.tajhotels.com/.../guras-kutir-interior.jpg"
+    ]
+  },
+  {
+    "id": "martam-village-resort",
+    "name": "Martam Village Resort (Martam House)",
+    "type": "heritage resort / countryside retreat",
+    "location": "East Sikkim (near Gangtok)",
+    "description": "A quiet heritage-style resort set in a paddy-field landscape, away from the bustle of Gangtok.",
+    "image": [
+      "https://www.heritagehotelsofindia.com/.../martam-house-exterior.jpg",
+      "https://www.heritagehotelsofindia.com/.../martam-house-view.jpg"
+    ]
+  }
+]
+

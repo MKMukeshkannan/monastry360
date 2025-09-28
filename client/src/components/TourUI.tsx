@@ -1,5 +1,7 @@
 'use client';
 
+import { useRouter } from "next/navigation";
+
 interface StepData {
   name: string;
   description: string;
@@ -26,15 +28,22 @@ export function TourUI({
   onExitTour,
   onToggleDescription,
 }: TourUIProps) {
+  const router = useRouter();
+
   return (
     <div className="absolute top-0 left-0 w-full h-full p-4 md:p-8 pointer-events-none text-white flex flex-col justify-between">
       {/* Top Right: Start/Exit and Toggle Buttons */}
       <div className="flex justify-end w-full pointer-events-auto">
         <div className="flex items-center gap-2">
           {!isTourActive ? (
+              <>
+            <button onClick={() => router.push("/")} className="btn btn-primary">
+                Quit
+            </button>
             <button onClick={onStartTour} className="btn btn-primary">
               Start Tour
             </button>
+            </>
           ) : (
             <button onClick={onExitTour} className="btn btn-ghost">
               Exit Tour
