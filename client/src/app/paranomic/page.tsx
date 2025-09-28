@@ -127,7 +127,6 @@ export default function Home() {
         onFreeRoamStart={handleFreeRoamStart} 
       />
 
-        {/* isTourActive={isTourActive}  */}
       <TourUI
         isTourActive={isTourActive}
         isDescriptionVisible={isDescriptionVisible}
