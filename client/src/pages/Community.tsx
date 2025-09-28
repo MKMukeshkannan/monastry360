@@ -4,6 +4,7 @@ import Calendar from 'react-calendar';
 import { useState } from "react";
 import { IconChevronLeft  } from '@tabler/icons-react';
 import { PostCard } from '@/components/Post';
+import styles from "./Calender.module.css";
 
 type TSubPage = "home" | "calender" | "post";
 
@@ -45,7 +46,7 @@ export default function Commmunity() {
         <Calendar
           onChange={(e) => setValue(e && toYYYYMMDD(e.toLocaleString()) || "") }
           value={value}
-          className="rounded-lg text-xs react-calendar"
+          className={styles.calendar}
         />
         {
         events[value] && 
